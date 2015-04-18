@@ -1,0 +1,2239 @@
+fileFormatVersion: 2
+guid: 94891a5e5d4cf0d4c8d2d54b74cedb46
+timeCreated: 1429345976
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Characters-BadGuy1-idle_gun_0
+    21300002: Characters-BadGuy1-idle_gun_1
+    21300004: Characters-BadGuy1-idle_gun_2
+    21300006: Characters-BadGuy1-idle_gun_3
+    21300008: Characters-BadGuy1-idle_no_gun_0
+    21300010: Characters-BadGuy1-idle_no_gun_1
+    21300012: Characters-BadGuy1-idle_no_gun_2
+    21300014: Characters-BadGuy1-idle_no_gun_3
+    21300016: Characters-BadGuy1-jump_gun_0
+    21300018: Characters-BadGuy1-jump_no_gun_0
+    21300020: Characters-BadGuy1-jump_shoot_0
+    21300022: Characters-BadGuy1-jump_shoot_1
+    21300024: Characters-BadGuy1-jump_shoot_2
+    21300026: Characters-BadGuy1-jump_shoot_3
+    21300028: Characters-BadGuy1-shoot_0
+    21300030: Characters-BadGuy1-shoot_1
+    21300032: Characters-BadGuy1-shoot_2
+    21300034: Characters-BadGuy1-shoot_3
+    21300036: Characters-BadGuy1-walk_gun_0
+    21300038: Characters-BadGuy1-walk_gun_1
+    21300040: Characters-BadGuy1-walk_gun_2
+    21300042: Characters-BadGuy1-walk_gun_3
+    21300044: Characters-BadGuy1-walk_no_gun_0
+    21300046: Characters-BadGuy1-walk_no_gun_1
+    21300048: Characters-BadGuy1-walk_no_gun_2
+    21300050: Characters-BadGuy1-walk_no_gun_3
+    21300052: Characters-BadGuy2-idle_gun_0
+    21300054: Characters-BadGuy2-idle_gun_1
+    21300056: Characters-BadGuy2-idle_gun_2
+    21300058: Characters-BadGuy2-idle_gun_3
+    21300060: Characters-BadGuy2-idle_no_gun_0
+    21300062: Characters-BadGuy2-idle_no_gun_1
+    21300064: Characters-BadGuy2-idle_no_gun_2
+    21300066: Characters-BadGuy2-idle_no_gun_3
+    21300068: Characters-BadGuy2-jump_gun_0
+    21300070: Characters-BadGuy2-jump_no_gun_0
+    21300072: Characters-BadGuy2-jump_shoot_0
+    21300074: Characters-BadGuy2-jump_shoot_1
+    21300076: Characters-BadGuy2-jump_shoot_2
+    21300078: Characters-BadGuy2-jump_shoot_3
+    21300080: Characters-BadGuy2-shoot_0
+    21300082: Characters-BadGuy2-shoot_1
+    21300084: Characters-BadGuy2-shoot_2
+    21300086: Characters-BadGuy2-shoot_3
+    21300088: Characters-BadGuy2-walk_gun_0
+    21300090: Characters-BadGuy2-walk_gun_1
+    21300092: Characters-BadGuy2-walk_gun_2
+    21300094: Characters-BadGuy2-walk_gun_3
+    21300096: Characters-BadGuy2-walk_no_gun_0
+    21300098: Characters-BadGuy2-walk_no_gun_1
+    21300100: Characters-BadGuy2-walk_no_gun_2
+    21300102: Characters-BadGuy2-walk_no_gun_3
+    21300104: Characters-BadGuy3-idle_gun_0
+    21300106: Characters-BadGuy3-idle_gun_1
+    21300108: Characters-BadGuy3-idle_gun_2
+    21300110: Characters-BadGuy3-idle_gun_3
+    21300112: Characters-BadGuy3-idle_no_gun_0
+    21300114: Characters-BadGuy3-idle_no_gun_1
+    21300116: Characters-BadGuy3-idle_no_gun_2
+    21300118: Characters-BadGuy3-idle_no_gun_3
+    21300120: Characters-BadGuy3-jump_0
+    21300122: Characters-BadGuy3-jump_no_gun_0
+    21300124: Characters-BadGuy3-jump_shoot_0
+    21300126: Characters-BadGuy3-jump_shoot_1
+    21300128: Characters-BadGuy3-jump_shoot_2
+    21300130: Characters-BadGuy3-jump_shoot_3
+    21300132: Characters-BadGuy3-shoot_0
+    21300134: Characters-BadGuy3-shoot_1
+    21300136: Characters-BadGuy3-shoot_2
+    21300138: Characters-BadGuy3-shoot_3
+    21300140: Characters-BadGuy3-walk_gun_0
+    21300142: Characters-BadGuy3-walk_gun_1
+    21300144: Characters-BadGuy3-walk_gun_2
+    21300146: Characters-BadGuy3-walk_gun_3
+    21300148: Characters-BadGuy3-walk_no_gun_0
+    21300150: Characters-BadGuy3-walk_no_gun_1
+    21300152: Characters-BadGuy3-walk_no_gun_2
+    21300154: Characters-BadGuy3-walk_no_gun_3
+    21300156: Characters-BadGuy4-idle_gun_0
+    21300158: Characters-BadGuy4-idle_gun_1
+    21300160: Characters-BadGuy4-idle_gun_2
+    21300162: Characters-BadGuy4-idle_gun_3
+    21300164: Characters-BadGuy4-idle_no_gun_0
+    21300166: Characters-BadGuy4-idle_no_gun_1
+    21300168: Characters-BadGuy4-idle_no_gun_2
+    21300170: Characters-BadGuy4-idle_no_gun_3
+    21300172: Characters-BadGuy4-jump_gun_0
+    21300174: Characters-BadGuy4-jump_no_gun_0
+    21300176: Characters-BadGuy4-jump_shoot_0
+    21300178: Characters-BadGuy4-jump_shoot_1
+    21300180: Characters-BadGuy4-jump_shoot_2
+    21300182: Characters-BadGuy4-jump_shoot_3
+    21300184: Characters-BadGuy4-shoot_0
+    21300186: Characters-BadGuy4-shoot_1
+    21300188: Characters-BadGuy4-shoot_2
+    21300190: Characters-BadGuy4-shoot_3
+    21300192: Characters-BadGuy4-walk_gun_0
+    21300194: Characters-BadGuy4-walk_gun_1
+    21300196: Characters-BadGuy4-walk_gun_2
+    21300198: Characters-BadGuy4-walk_gun_3
+    21300200: Characters-BadGuy4-walk_no_gun_0
+    21300202: Characters-BadGuy4-walk_no_gun_1
+    21300204: Characters-BadGuy4-walk_no_gun_2
+    21300206: Characters-BadGuy4-walk_no_gun_3
+    21300208: Characters-BadGuy5-idle_gun_0
+    21300210: Characters-BadGuy5-idle_gun_1
+    21300212: Characters-BadGuy5-idle_gun_2
+    21300214: Characters-BadGuy5-idle_gun_3
+    21300216: Characters-BadGuy5-idle_no_gun_0
+    21300218: Characters-BadGuy5-idle_no_gun_1
+    21300220: Characters-BadGuy5-idle_no_gun_2
+    21300222: Characters-BadGuy5-idle_no_gun_3
+    21300224: Characters-BadGuy5-jump_gun_0
+    21300226: Characters-BadGuy5-jump_no_gun_0
+    21300228: Characters-BadGuy5-jump_shoot_0
+    21300230: Characters-BadGuy5-jump_shoot_1
+    21300232: Characters-BadGuy5-jump_shoot_2
+    21300234: Characters-BadGuy5-jump_shoot_3
+    21300236: Characters-BadGuy5-shoot_0
+    21300238: Characters-BadGuy5-shoot_1
+    21300240: Characters-BadGuy5-shoot_2
+    21300242: Characters-BadGuy5-shoot_3
+    21300244: Characters-BadGuy5-walk_gun_0
+    21300246: Characters-BadGuy5-walk_gun_1
+    21300248: Characters-BadGuy5-walk_gun_2
+    21300250: Characters-BadGuy5-walk_gun_3
+    21300252: Characters-BadGuy5-walk_no_gun_0
+    21300254: Characters-BadGuy5-walk_no_gun_1
+    21300256: Characters-BadGuy5-walk_no_gun_2
+    21300258: Characters-BadGuy5-walk_no_gun_3
+    21300260: Characters-GoodGuy1-idle_gun_0
+    21300262: Characters-GoodGuy1-idle_gun_1
+    21300264: Characters-GoodGuy1-idle_gun_2
+    21300266: Characters-GoodGuy1-idle_gun_3
+    21300268: Characters-GoodGuy1-idle_no_gun_0
+    21300270: Characters-GoodGuy1-idle_no_gun_1
+    21300272: Characters-GoodGuy1-idle_no_gun_2
+    21300274: Characters-GoodGuy1-idle_no_gun_3
+    21300276: Characters-GoodGuy1-jump_gun_0
+    21300278: Characters-GoodGuy1-jump_no_gun_0
+    21300280: Characters-GoodGuy1-jump_shoot_0
+    21300282: Characters-GoodGuy1-jump_shoot_1
+    21300284: Characters-GoodGuy1-jump_shoot_2
+    21300286: Characters-GoodGuy1-jump_shoot_3
+    21300288: Characters-GoodGuy1-shoot_0
+    21300290: Characters-GoodGuy1-shoot_1
+    21300292: Characters-GoodGuy1-shoot_2
+    21300294: Characters-GoodGuy1-shoot_3
+    21300296: Characters-GoodGuy1-walk_gun_0
+    21300298: Characters-GoodGuy1-walk_gun_1
+    21300300: Characters-GoodGuy1-walk_gun_2
+    21300302: Characters-GoodGuy1-walk_gun_3
+    21300304: Characters-GoodGuy1-walk_no_gun_0
+    21300306: Characters-GoodGuy1-walk_no_gun_1
+    21300308: Characters-GoodGuy1-walk_no_gun_2
+    21300310: Characters-GoodGuy1-walk_no_gun_3
+    21300312: Characters-GoodGuy2-idle_gun_0
+    21300314: Characters-GoodGuy2-idle_gun_1
+    21300316: Characters-GoodGuy2-idle_gun_2
+    21300318: Characters-GoodGuy2-idle_gun_3
+    21300320: Characters-GoodGuy2-idle_no_gun_0
+    21300322: Characters-GoodGuy2-idle_no_gun_1
+    21300324: Characters-GoodGuy2-idle_no_gun_2
+    21300326: Characters-GoodGuy2-idle_no_gun_3
+    21300328: Characters-GoodGuy2-jump_gun_0
+    21300330: Characters-GoodGuy2-jump_no_gun_0
+    21300332: Characters-GoodGuy2-jump_shoot_0
+    21300334: Characters-GoodGuy2-jump_shoot_1
+    21300336: Characters-GoodGuy2-jump_shoot_2
+    21300338: Characters-GoodGuy2-jump_shoot_3
+    21300340: Characters-GoodGuy2-shoot_0
+    21300342: Characters-GoodGuy2-shoot_1
+    21300344: Characters-GoodGuy2-shoot_2
+    21300346: Characters-GoodGuy2-shoot_3
+    21300348: Characters-GoodGuy2-walk_gun_0
+    21300350: Characters-GoodGuy2-walk_gun_1
+    21300352: Characters-GoodGuy2-walk_gun_2
+    21300354: Characters-GoodGuy2-walk_gun_3
+    21300356: Characters-GoodGuy2-walk_no_gun_0
+    21300358: Characters-GoodGuy2-walk_no_gun_1
+    21300360: Characters-GoodGuy2-walk_no_gun_2
+    21300362: Characters-GoodGuy2-walk_no_gun_3
+    21300364: BadGuy1-idle_gun_0
+    21300366: BadGuy1-idle_gun_1
+    21300368: BadGuy1-idle_gun_2
+    21300370: BadGuy1-idle_gun_3
+    21300372: BadGuy1-idle_no_gun_0
+    21300374: BadGuy1-idle_no_gun_1
+    21300376: BadGuy1-idle_no_gun_2
+    21300378: BadGuy1-idle_no_gun_3
+    21300380: BadGuy1-jump_gun_0
+    21300382: BadGuy1-jump_no_gun_0
+    21300384: BadGuy1-jump_shoot_0
+    21300386: BadGuy1-jump_shoot_1
+    21300388: BadGuy1-jump_shoot_2
+    21300390: BadGuy1-jump_shoot_3
+    21300392: BadGuy1-shoot_0
+    21300394: BadGuy1-shoot_1
+    21300396: BadGuy1-shoot_2
+    21300398: BadGuy1-shoot_3
+    21300400: BadGuy1-walk_gun_0
+    21300402: BadGuy1-walk_gun_1
+    21300404: BadGuy1-walk_gun_2
+    21300406: BadGuy1-walk_gun_3
+    21300408: BadGuy1-walk_no_gun_0
+    21300410: BadGuy1-walk_no_gun_1
+    21300412: BadGuy1-walk_no_gun_2
+    21300414: BadGuy1-walk_no_gun_3
+    21300416: BadGuy2-idle_gun_0
+    21300418: BadGuy2-idle_gun_1
+    21300420: BadGuy2-idle_gun_2
+    21300422: BadGuy2-idle_gun_3
+    21300424: BadGuy2-idle_no_gun_0
+    21300426: BadGuy2-idle_no_gun_1
+    21300428: BadGuy2-idle_no_gun_2
+    21300430: BadGuy2-idle_no_gun_3
+    21300432: BadGuy2-jump_gun_0
+    21300434: BadGuy2-jump_no_gun_0
+    21300436: BadGuy2-jump_shoot_0
+    21300438: BadGuy2-jump_shoot_1
+    21300440: BadGuy2-jump_shoot_2
+    21300442: BadGuy2-jump_shoot_3
+    21300444: BadGuy2-shoot_0
+    21300446: BadGuy2-shoot_1
+    21300448: BadGuy2-shoot_2
+    21300450: BadGuy2-shoot_3
+    21300452: BadGuy2-walk_gun_0
+    21300454: BadGuy2-walk_gun_1
+    21300456: BadGuy2-walk_gun_2
+    21300458: BadGuy2-walk_gun_3
+    21300460: BadGuy2-walk_no_gun_0
+    21300462: BadGuy2-walk_no_gun_1
+    21300464: BadGuy2-walk_no_gun_2
+    21300466: BadGuy2-walk_no_gun_3
+    21300468: BadGuy3-idle_gun_0
+    21300470: BadGuy3-idle_gun_1
+    21300472: BadGuy3-idle_gun_2
+    21300474: BadGuy3-idle_gun_3
+    21300476: BadGuy3-idle_no_gun_0
+    21300478: BadGuy3-idle_no_gun_1
+    21300480: BadGuy3-idle_no_gun_2
+    21300482: BadGuy3-idle_no_gun_3
+    21300484: BadGuy3-jump_0
+    21300486: BadGuy3-jump_no_gun_0
+    21300488: BadGuy3-jump_shoot_0
+    21300490: BadGuy3-jump_shoot_1
+    21300492: BadGuy3-jump_shoot_2
+    21300494: BadGuy3-jump_shoot_3
+    21300496: BadGuy3-shoot_0
+    21300498: BadGuy3-shoot_1
+    21300500: BadGuy3-shoot_2
+    21300502: BadGuy3-shoot_3
+    21300504: BadGuy3-walk_gun_0
+    21300506: BadGuy3-walk_gun_1
+    21300508: BadGuy3-walk_gun_2
+    21300510: BadGuy3-walk_gun_3
+    21300512: BadGuy3-walk_no_gun_0
+    21300514: BadGuy3-walk_no_gun_1
+    21300516: BadGuy3-walk_no_gun_2
+    21300518: BadGuy3-walk_no_gun_3
+    21300520: BadGuy4-idle_gun_0
+    21300522: BadGuy4-idle_gun_1
+    21300524: BadGuy4-idle_gun_2
+    21300526: BadGuy4-idle_gun_3
+    21300528: BadGuy4-idle_no_gun_0
+    21300530: BadGuy4-idle_no_gun_1
+    21300532: BadGuy4-idle_no_gun_2
+    21300534: BadGuy4-idle_no_gun_3
+    21300536: BadGuy4-jump_gun_0
+    21300538: BadGuy4-jump_no_gun_0
+    21300540: BadGuy4-jump_shoot_0
+    21300542: BadGuy4-jump_shoot_1
+    21300544: BadGuy4-jump_shoot_2
+    21300546: BadGuy4-jump_shoot_3
+    21300548: BadGuy4-shoot_0
+    21300550: BadGuy4-shoot_1
+    21300552: BadGuy4-shoot_2
+    21300554: BadGuy4-shoot_3
+    21300556: BadGuy4-walk_gun_0
+    21300558: BadGuy4-walk_gun_1
+    21300560: BadGuy4-walk_gun_2
+    21300562: BadGuy4-walk_gun_3
+    21300564: BadGuy4-walk_no_gun_0
+    21300566: BadGuy4-walk_no_gun_1
+    21300568: BadGuy4-walk_no_gun_2
+    21300570: BadGuy4-walk_no_gun_3
+    21300572: BadGuy5-idle_gun_0
+    21300574: BadGuy5-idle_gun_1
+    21300576: BadGuy5-idle_gun_2
+    21300578: BadGuy5-idle_gun_3
+    21300580: BadGuy5-idle_no_gun_0
+    21300582: BadGuy5-idle_no_gun_1
+    21300584: BadGuy5-idle_no_gun_2
+    21300586: BadGuy5-idle_no_gun_3
+    21300588: BadGuy5-jump_gun_0
+    21300590: BadGuy5-jump_no_gun_0
+    21300592: BadGuy5-jump_shoot_0
+    21300594: BadGuy5-jump_shoot_1
+    21300596: BadGuy5-jump_shoot_2
+    21300598: BadGuy5-jump_shoot_3
+    21300600: BadGuy5-shoot_0
+    21300602: BadGuy5-shoot_1
+    21300604: BadGuy5-shoot_2
+    21300606: BadGuy5-shoot_3
+    21300608: BadGuy5-walk_gun_0
+    21300610: BadGuy5-walk_gun_1
+    21300612: BadGuy5-walk_gun_2
+    21300614: BadGuy5-walk_gun_3
+    21300616: BadGuy5-walk_no_gun_0
+    21300618: BadGuy5-walk_no_gun_1
+    21300620: BadGuy5-walk_no_gun_2
+    21300622: BadGuy5-walk_no_gun_3
+    21300624: GoodGuy1-idle_gun_0
+    21300626: GoodGuy1-idle_gun_1
+    21300628: GoodGuy1-idle_gun_2
+    21300630: GoodGuy1-idle_gun_3
+    21300632: GoodGuy1-idle_no_gun_0
+    21300634: GoodGuy1-idle_no_gun_1
+    21300636: GoodGuy1-idle_no_gun_2
+    21300638: GoodGuy1-idle_no_gun_3
+    21300640: GoodGuy1-jump_gun_0
+    21300642: GoodGuy1-jump_no_gun_0
+    21300644: GoodGuy1-jump_shoot_0
+    21300646: GoodGuy1-jump_shoot_1
+    21300648: GoodGuy1-jump_shoot_2
+    21300650: GoodGuy1-jump_shoot_3
+    21300652: GoodGuy1-shoot_0
+    21300654: GoodGuy1-shoot_1
+    21300656: GoodGuy1-shoot_2
+    21300658: GoodGuy1-shoot_3
+    21300660: GoodGuy1-walk_gun_0
+    21300662: GoodGuy1-walk_gun_1
+    21300664: GoodGuy1-walk_gun_2
+    21300666: GoodGuy1-walk_gun_3
+    21300668: GoodGuy1-walk_no_gun_0
+    21300670: GoodGuy1-walk_no_gun_1
+    21300672: GoodGuy1-walk_no_gun_2
+    21300674: GoodGuy1-walk_no_gun_3
+    21300676: GoodGuy2-idle_gun_0
+    21300678: GoodGuy2-idle_gun_1
+    21300680: GoodGuy2-idle_gun_2
+    21300682: GoodGuy2-idle_gun_3
+    21300684: GoodGuy2-idle_no_gun_0
+    21300686: GoodGuy2-idle_no_gun_1
+    21300688: GoodGuy2-idle_no_gun_2
+    21300690: GoodGuy2-idle_no_gun_3
+    21300692: GoodGuy2-jump_gun_0
+    21300694: GoodGuy2-jump_no_gun_0
+    21300696: GoodGuy2-jump_shoot_0
+    21300698: GoodGuy2-jump_shoot_1
+    21300700: GoodGuy2-jump_shoot_2
+    21300702: GoodGuy2-jump_shoot_3
+    21300704: GoodGuy2-shoot_0
+    21300706: GoodGuy2-shoot_1
+    21300708: GoodGuy2-shoot_2
+    21300710: GoodGuy2-shoot_3
+    21300712: GoodGuy2-walk_gun_0
+    21300714: GoodGuy2-walk_gun_1
+    21300716: GoodGuy2-walk_gun_2
+    21300718: GoodGuy2-walk_gun_3
+    21300720: GoodGuy2-walk_no_gun_0
+    21300722: GoodGuy2-walk_no_gun_1
+    21300724: GoodGuy2-walk_no_gun_2
+    21300726: GoodGuy2-walk_no_gun_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BadGuy1-idle_gun_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 64
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: .730769217, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-idle_gun_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 64
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: .730769217, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-idle_gun_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: .730769217, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-idle_gun_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: .730769217, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-idle_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 123
+        width: 23
+        height: 30
+      alignment: 9
+      pivot: {x: .826086938, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-idle_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 123
+        width: 23
+        height: 30
+      alignment: 9
+      pivot: {x: .826086938, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-idle_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 189
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: .826086938, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-idle_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 189
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: .826086938, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-jump_gun_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 28
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: .730769217, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-jump_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 122
+        width: 28
+        height: 35
+      alignment: 9
+      pivot: {x: .678571403, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-jump_shoot_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 120
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: .730769217, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-jump_shoot_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 358
+        width: 33
+        height: 32
+      alignment: 9
+      pivot: {x: .575757563, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-jump_shoot_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 439
+        width: 38
+        height: 32
+      alignment: 9
+      pivot: {x: .5, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-jump_shoot_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 155
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: .730769217, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-shoot_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 189
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: .730769217, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-shoot_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 269
+        width: 33
+        height: 30
+      alignment: 9
+      pivot: {x: .575757563, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-shoot_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 407
+        width: 38
+        height: 30
+      alignment: 9
+      pivot: {x: .5, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-shoot_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 190
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: .730769217, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-walk_gun_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 155
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: .615384638, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-walk_gun_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 130
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: .629629612, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-walk_gun_2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 96
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: .629629612, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-walk_gun_3
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 130
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: .629629612, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-walk_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 167
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: .894736826, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-walk_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 224
+        width: 19
+        height: 33
+      alignment: 9
+      pivot: {x: .894736826, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-walk_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 121
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: .833333313, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy1-walk_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 224
+        width: 19
+        height: 33
+      alignment: 9
+      pivot: {x: .894736826, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-idle_gun_0
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 155
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: .741379321, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-idle_gun_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 155
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: .741379321, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-idle_gun_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 166
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: .741379321, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-idle_gun_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 166
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: .741379321, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-idle_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 129
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: .796296299, y: .681818187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-idle_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 129
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: .796296299, y: .681818187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-idle_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 130
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: .796296299, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-idle_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 130
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: .796296299, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-jump_gun_0
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 222
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: .741379321, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-jump_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 435
+        width: 33
+        height: 38
+      alignment: 9
+      pivot: {x: .651515126, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-jump_shoot_0
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 191
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: .741379321, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-jump_shoot_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 475
+        width: 32
+        height: 35
+      alignment: 9
+      pivot: {x: .609375, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-jump_shoot_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 441
+        width: 40
+        height: 35
+      alignment: 9
+      pivot: {x: .487500012, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-jump_shoot_3
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 63
+        width: 26
+        height: 35
+      alignment: 9
+      pivot: {x: .75, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-shoot_0
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 147
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: .741379321, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-shoot_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 285
+        width: 32
+        height: 34
+      alignment: 9
+      pivot: {x: .609375, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-shoot_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 437
+        width: 38
+        height: 34
+      alignment: 9
+      pivot: {x: .513157904, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-shoot_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 93
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: .75, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-walk_gun_0
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 111
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: .685185194, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-walk_gun_1
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 243
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: .685185194, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-walk_gun_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 165
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: .685185194, y: .661764681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-walk_gun_3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 243
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: .685185194, y: .642857134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-walk_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 92
+        width: 26
+        height: 36
+      alignment: 9
+      pivot: {x: .711538434, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-walk_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 280
+        width: 26
+        height: 37
+      alignment: 9
+      pivot: {x: .711538434, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-walk_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 247
+        width: 30
+        height: 36
+      alignment: 9
+      pivot: {x: .75, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy2-walk_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 280
+        width: 26
+        height: 37
+      alignment: 9
+      pivot: {x: .711538434, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-idle_gun_0
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 268
+        width: 33
+        height: 30
+      alignment: 9
+      pivot: {x: .651515126, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-idle_gun_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 268
+        width: 33
+        height: 30
+      alignment: 9
+      pivot: {x: .651515126, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-idle_gun_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 299
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: .651515126, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-idle_gun_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 299
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: .651515126, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-idle_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 259
+        width: 21
+        height: 30
+      alignment: 9
+      pivot: {x: 1.02380955, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-idle_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 259
+        width: 21
+        height: 30
+      alignment: 9
+      pivot: {x: 1.02380955, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-idle_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 291
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 1.02380955, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-idle_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 291
+        width: 21
+        height: 31
+      alignment: 9
+      pivot: {x: 1.02380955, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-jump_0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 332
+        width: 33
+        height: 32
+      alignment: 9
+      pivot: {x: .651515126, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-jump_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 164
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: .796296299, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-jump_shoot_0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 332
+        width: 33
+        height: 32
+      alignment: 9
+      pivot: {x: .651515126, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-jump_shoot_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 407
+        width: 38
+        height: 32
+      alignment: 9
+      pivot: {x: .565789461, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-jump_shoot_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 478
+        width: 41
+        height: 32
+      alignment: 9
+      pivot: {x: .524390221, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-jump_shoot_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 266
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: .671875, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-shoot_0
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 268
+        width: 33
+        height: 30
+      alignment: 9
+      pivot: {x: .651515126, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-shoot_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 405
+        width: 38
+        height: 30
+      alignment: 9
+      pivot: {x: .565789461, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-shoot_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 480
+        width: 41
+        height: 30
+      alignment: 9
+      pivot: {x: .524390221, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-shoot_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 287
+        width: 32
+        height: 30
+      alignment: 9
+      pivot: {x: .671875, y: .666666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_gun_0
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 301
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: .560606062, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_gun_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 324
+        width: 33
+        height: 32
+      alignment: 9
+      pivot: {x: .560606062, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_gun_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 300
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: .560606062, y: .645161271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_gun_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 324
+        width: 33
+        height: 32
+      alignment: 9
+      pivot: {x: .560606062, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 334
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 1.02777779, y: .625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 189
+        width: 19
+        height: 33
+      alignment: 9
+      pivot: {x: 1.02631581, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 232
+        width: 24
+        height: 33
+      alignment: 9
+      pivot: {x: .9375, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 189
+        width: 19
+        height: 33
+      alignment: 9
+      pivot: {x: 1.02631581, y: .606060624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-idle_gun_0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 366
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: .597222209, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-idle_gun_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 366
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: .597222209, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-idle_gun_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 432
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .597222209, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-idle_gun_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 432
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .597222209, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-idle_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 196
+        width: 29
+        height: 37
+      alignment: 9
+      pivot: {x: .741379321, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-idle_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 196
+        width: 29
+        height: 37
+      alignment: 9
+      pivot: {x: .741379321, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-idle_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 259
+        width: 29
+        height: 38
+      alignment: 9
+      pivot: {x: .741379321, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-idle_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 259
+        width: 29
+        height: 38
+      alignment: 9
+      pivot: {x: .741379321, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-jump_gun_0
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 333
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .597222209, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-jump_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 222
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: .741379321, y: .535714269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-jump_shoot_0
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 360
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .597222209, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-jump_shoot_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 439
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: .537500024, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-jump_shoot_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 432
+        width: 39
+        height: 39
+      alignment: 9
+      pivot: {x: .551282048, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-jump_shoot_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 308
+        width: 34
+        height: 39
+      alignment: 9
+      pivot: {x: .632352948, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-shoot_0
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 334
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: .597222209, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-shoot_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 473
+        width: 41
+        height: 37
+      alignment: 9
+      pivot: {x: .524390221, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-shoot_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 473
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: .5, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-shoot_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 35
+        height: 37
+      alignment: 9
+      pivot: {x: .614285707, y: .608108103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_gun_0
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 432
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .513888896, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_gun_1
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 321
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .513888896, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_gun_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 392
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .513888896, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_gun_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 321
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .513888896, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 311
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .637931049, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 201
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .637931049, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 307
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .637931049, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 201
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .637931049, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-idle_gun_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 239
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: .711538434, y: .583333313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-idle_gun_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 239
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: .711538434, y: .583333313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-idle_gun_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: .711538434, y: .564516127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-idle_gun_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: .711538434, y: .564516127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-idle_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 157
+        width: 23
+        height: 30
+      alignment: 9
+      pivot: {x: .804347813, y: .583333313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-idle_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 157
+        width: 23
+        height: 30
+      alignment: 9
+      pivot: {x: .804347813, y: .583333313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-idle_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 189
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: .804347813, y: .564516127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-idle_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 189
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: .804347813, y: .564516127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-jump_gun_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 28
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: .711538434, y: .530303001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-jump_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 159
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: .534482777, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-jump_shoot_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 28
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: .711538434, y: .530303001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-jump_shoot_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 235
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: .578125, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-jump_shoot_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 374
+        width: 37
+        height: 31
+      alignment: 9
+      pivot: {x: .5, y: .564516127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-jump_shoot_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 233
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: .711538434, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-shoot_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 275
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: .711538434, y: .583333313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-shoot_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 300
+        width: 33
+        height: 32
+      alignment: 9
+      pivot: {x: .560606062, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-shoot_2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 401
+        width: 37
+        height: 32
+      alignment: 9
+      pivot: {x: .5, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-shoot_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 273
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: .711538434, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-walk_gun_0
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 373
+        width: 37
+        height: 32
+      alignment: 9
+      pivot: {x: .5, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-walk_gun_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 404
+        width: 37
+        height: 33
+      alignment: 9
+      pivot: {x: .5, y: .530303001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-walk_gun_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 29
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: .711538434, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-walk_gun_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 120
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: .711538434, y: .530303001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-walk_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 368
+        width: 18
+        height: 35
+      alignment: 9
+      pivot: {x: .805555582, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-walk_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 133
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: .815789461, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-walk_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 155
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: .770833313, y: .546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy5-walk_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 100
+        width: 19
+        height: 31
+      alignment: 9
+      pivot: {x: .815789461, y: .564516127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-idle_gun_0
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 391
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .666666687, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-idle_gun_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 391
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .666666687, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-idle_gun_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 319
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .666666687, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-idle_gun_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 319
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .666666687, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-idle_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 243
+        width: 29
+        height: 38
+      alignment: 9
+      pivot: {x: .827586234, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-idle_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 243
+        width: 29
+        height: 38
+      alignment: 9
+      pivot: {x: .827586234, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-idle_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 267
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .827586234, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-idle_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 267
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .827586234, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-jump_gun_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 431
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .666666687, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-jump_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 243
+        width: 31
+        height: 42
+      alignment: 9
+      pivot: {x: .774193525, y: .535714269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-jump_shoot_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 431
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .666666687, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-jump_shoot_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 471
+        width: 41
+        height: 39
+      alignment: 9
+      pivot: {x: .585365832, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-jump_shoot_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 470
+        width: 42
+        height: 40
+      alignment: 9
+      pivot: {x: .571428597, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-jump_shoot_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 348
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: .685714304, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-shoot_0
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 391
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .666666687, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-shoot_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 472
+        width: 41
+        height: 38
+      alignment: 9
+      pivot: {x: .585365832, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-shoot_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 433
+        width: 42
+        height: 38
+      alignment: 9
+      pivot: {x: .571428597, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-shoot_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 349
+        width: 35
+        height: 38
+      alignment: 9
+      pivot: {x: .685714304, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-walk_gun_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 390
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .583333313, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-walk_gun_1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 362
+        width: 36
+        height: 40
+      alignment: 9
+      pivot: {x: .583333313, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-walk_gun_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 389
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .583333313, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-walk_gun_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 362
+        width: 36
+        height: 40
+      alignment: 9
+      pivot: {x: .583333313, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-walk_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 232
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .724137902, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-walk_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 201
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .724137902, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-walk_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 312
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .724137902, y: .576923072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy1-walk_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 201
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .724137902, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-idle_gun_0
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 353
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: .666666687, y: .743243217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-idle_gun_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 353
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: .666666687, y: .743243217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-idle_gun_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 352
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .666666687, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-idle_gun_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 352
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .666666687, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-idle_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 183
+        width: 29
+        height: 37
+      alignment: 9
+      pivot: {x: .827586234, y: .743243217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-idle_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 183
+        width: 29
+        height: 37
+      alignment: 9
+      pivot: {x: .827586234, y: .743243217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-idle_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 228
+        width: 29
+        height: 38
+      alignment: 9
+      pivot: {x: .827586234, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-idle_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 228
+        width: 29
+        height: 38
+      alignment: 9
+      pivot: {x: .827586234, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-jump_gun_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 430
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .666666687, y: .705128193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-jump_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 203
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: .827586234, y: .65476191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-jump_shoot_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 429
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .666666687, y: .705128193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-jump_shoot_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 472
+        width: 41
+        height: 38
+      alignment: 9
+      pivot: {x: .585365832, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-jump_shoot_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 472
+        width: 41
+        height: 38
+      alignment: 9
+      pivot: {x: .585365832, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-jump_shoot_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 273
+        width: 34
+        height: 38
+      alignment: 9
+      pivot: {x: .70588237, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-shoot_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 352
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: .666666687, y: .743243217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-shoot_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 473
+        width: 41
+        height: 37
+      alignment: 9
+      pivot: {x: .585365832, y: .743243217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-shoot_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 473
+        width: 41
+        height: 37
+      alignment: 9
+      pivot: {x: .585365832, y: .743243217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-shoot_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 353
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: .70588237, y: .743243217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-walk_gun_0
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 392
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .583333313, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-walk_gun_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 392
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .583333313, y: .705128193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-walk_gun_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 392
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .583333313, y: .723684192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-walk_gun_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 392
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: .583333313, y: .705128193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-walk_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 283
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .724137902, y: .705128193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-walk_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 311
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .724137902, y: .6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-walk_no_gun_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 271
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .724137902, y: .705128193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GoodGuy2-walk_no_gun_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 311
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .724137902, y: .6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
