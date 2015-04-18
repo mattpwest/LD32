@@ -10,10 +10,10 @@
 using System;
 namespace AssemblyCSharp
 {
-	public enum FacingDirection
+	public enum Layer
 	{
-		Left = -1,
-		Right = 1
+		GoodGuy = 11,
+		BadGuy = 12
 	}
 }
 
