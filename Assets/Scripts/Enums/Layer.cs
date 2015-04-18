@@ -13,7 +13,8 @@ namespace AssemblyCSharp
 	public enum Layer
 	{
 		GoodGuy = 11,
-		BadGuy = 12
+		BadGuy = 12,
+		Ground = 10
 	}
 }
 
