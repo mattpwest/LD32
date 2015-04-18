@@ -8,6 +8,7 @@ public class BadGuyShoot : MonoBehaviour {
 	public Transform sightStart, sightEnd;
 	public bool canShoot = true;
 	public LayerMask layerMask;
+	public Transform projectileSpawn;
 
 	private Rigidbody2D body;
 	private float timer = 0f;
@@ -45,7 +46,7 @@ public class BadGuyShoot : MonoBehaviour {
 	void Shoot(){
 		GameObject clone;
 
-		clone = (Instantiate (projectilePrefab, transform.position, transform.rotation)) as GameObject;
+		clone = (Instantiate (projectilePrefab, projectileSpawn.position, projectileSpawn.rotation)) as GameObject;
 		clone.transform.localScale = transform.localScale;
 
 	}
