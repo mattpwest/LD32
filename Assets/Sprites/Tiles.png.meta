@@ -80,8 +80,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -94,7 +94,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -103,8 +103,8 @@ TextureImporter:
     - name: Ground-ground_bottom
       rect:
         serializedVersion: 2
-        x: 2
-        y: 222
+        x: 3
+        y: 221
         width: 32
         height: 32
       alignment: 0
@@ -113,8 +113,8 @@ TextureImporter:
     - name: Ground-ground_bottom_left
       rect:
         serializedVersion: 2
-        x: 2
-        y: 188
+        x: 3
+        y: 185
         width: 32
         height: 32
       alignment: 0
@@ -123,8 +123,8 @@ TextureImporter:
     - name: Ground-ground_bottom_right
       rect:
         serializedVersion: 2
-        x: 2
-        y: 154
+        x: 3
+        y: 149
         width: 32
         height: 32
       alignment: 0
@@ -133,8 +133,8 @@ TextureImporter:
     - name: Ground-ground_center
       rect:
         serializedVersion: 2
-        x: 2
-        y: 120
+        x: 3
+        y: 113
         width: 32
         height: 32
       alignment: 0
@@ -143,8 +143,8 @@ TextureImporter:
     - name: Ground-ground_corner_bottom_left
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
+        x: 213
+        y: 123
         width: 14
         height: 14
       alignment: 9
@@ -153,8 +153,8 @@ TextureImporter:
     - name: Ground-ground_corner_bottom_right
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2
+        x: 231
+        y: 106
         width: 12
         height: 14
       alignment: 9
@@ -163,8 +163,8 @@ TextureImporter:
     - name: Ground-ground_corner_top_left
       rect:
         serializedVersion: 2
-        x: 32
-        y: 3
+        x: 231
+        y: 124
         width: 14
         height: 13
       alignment: 9
@@ -173,8 +173,8 @@ TextureImporter:
     - name: Ground-ground_corner_top_right
       rect:
         serializedVersion: 2
-        x: 48
-        y: 3
+        x: 213
+        y: 106
         width: 12
         height: 13
       alignment: 9
@@ -183,8 +183,8 @@ TextureImporter:
     - name: Ground-ground_left
       rect:
         serializedVersion: 2
-        x: 2
-        y: 86
+        x: 3
+        y: 77
         width: 32
         height: 32
       alignment: 0
@@ -193,8 +193,8 @@ TextureImporter:
     - name: Ground-ground_pillar_bottom
       rect:
         serializedVersion: 2
-        x: 2
-        y: 52
+        x: 3
+        y: 41
         width: 32
         height: 32
       alignment: 0
@@ -203,8 +203,8 @@ TextureImporter:
     - name: Ground-ground_pillar_center
       rect:
         serializedVersion: 2
-        x: 2
-        y: 18
+        x: 3
+        y: 5
         width: 32
         height: 32
       alignment: 0
@@ -213,8 +213,8 @@ TextureImporter:
     - name: Ground-ground_pillar_top
       rect:
         serializedVersion: 2
-        x: 48
-        y: 222
+        x: 39
+        y: 221
         width: 32
         height: 32
       alignment: 0
@@ -223,8 +223,8 @@ TextureImporter:
     - name: Ground-ground_platform_center
       rect:
         serializedVersion: 2
-        x: 82
-        y: 222
+        x: 75
+        y: 221
         width: 32
         height: 32
       alignment: 0
@@ -233,8 +233,8 @@ TextureImporter:
     - name: Ground-ground_platform_left
       rect:
         serializedVersion: 2
-        x: 116
-        y: 222
+        x: 111
+        y: 221
         width: 32
         height: 32
       alignment: 0
@@ -243,8 +243,8 @@ TextureImporter:
     - name: Ground-ground_platform_right
       rect:
         serializedVersion: 2
-        x: 150
-        y: 222
+        x: 147
+        y: 221
         width: 32
         height: 32
       alignment: 0
@@ -253,8 +253,8 @@ TextureImporter:
     - name: Ground-ground_platform_single
       rect:
         serializedVersion: 2
-        x: 184
-        y: 222
+        x: 183
+        y: 221
         width: 32
         height: 32
       alignment: 0
@@ -263,8 +263,8 @@ TextureImporter:
     - name: Ground-ground_right
       rect:
         serializedVersion: 2
-        x: 218
-        y: 222
+        x: 219
+        y: 221
         width: 32
         height: 32
       alignment: 0
@@ -273,8 +273,8 @@ TextureImporter:
     - name: Ground-ground_top
       rect:
         serializedVersion: 2
-        x: 36
-        y: 188
+        x: 39
+        y: 185
         width: 32
         height: 32
       alignment: 0
@@ -283,8 +283,8 @@ TextureImporter:
     - name: Ground-ground_top_left
       rect:
         serializedVersion: 2
-        x: 36
-        y: 154
+        x: 39
+        y: 149
         width: 32
         height: 32
       alignment: 0
@@ -293,8 +293,8 @@ TextureImporter:
     - name: Ground-ground_top_right
       rect:
         serializedVersion: 2
-        x: 36
-        y: 120
+        x: 39
+        y: 113
         width: 32
         height: 32
       alignment: 0
@@ -303,8 +303,8 @@ TextureImporter:
     - name: Ground-sky
       rect:
         serializedVersion: 2
-        x: 36
-        y: 86
+        x: 39
+        y: 77
         width: 32
         height: 32
       alignment: 0
@@ -313,8 +313,8 @@ TextureImporter:
     - name: Items-barrel
       rect:
         serializedVersion: 2
-        x: 164
-        y: 107
+        x: 183
+        y: 114
         width: 26
         height: 26
       alignment: 9
@@ -323,8 +323,8 @@ TextureImporter:
     - name: Items-cactus_0
       rect:
         serializedVersion: 2
-        x: 130
-        y: 192
+        x: 111
+        y: 189
         width: 32
         height: 28
       alignment: 9
@@ -333,8 +333,8 @@ TextureImporter:
     - name: Items-cactus_1
       rect:
         serializedVersion: 2
-        x: 164
-        y: 192
+        x: 147
+        y: 189
         width: 32
         height: 28
       alignment: 9
@@ -343,8 +343,8 @@ TextureImporter:
     - name: Items-crate_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 52
+        x: 39
+        y: 41
         width: 32
         height: 32
       alignment: 0
@@ -353,8 +353,8 @@ TextureImporter:
     - name: Items-crate_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 18
+        x: 39
+        y: 5
         width: 32
         height: 32
       alignment: 0
@@ -363,8 +363,8 @@ TextureImporter:
     - name: Items-crate_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 188
+        x: 75
+        y: 185
         width: 32
         height: 32
       alignment: 0
@@ -373,8 +373,8 @@ TextureImporter:
     - name: Items-fence_flat_center
       rect:
         serializedVersion: 2
-        x: 164
-        y: 169
+        x: 111
+        y: 164
         width: 32
         height: 21
       alignment: 9
@@ -383,8 +383,8 @@ TextureImporter:
     - name: Items-fence_flat_left
       rect:
         serializedVersion: 2
-        x: 198
-        y: 151
+        x: 75
+        y: 160
         width: 32
         height: 21
       alignment: 9
@@ -393,8 +393,8 @@ TextureImporter:
     - name: Items-fence_flat_right
       rect:
         serializedVersion: 2
-        x: 164
-        y: 146
+        x: 147
+        y: 164
         width: 32
         height: 21
       alignment: 9
@@ -403,8 +403,8 @@ TextureImporter:
     - name: Items-fence_flat_single
       rect:
         serializedVersion: 2
-        x: 130
-        y: 145
+        x: 183
+        y: 144
         width: 32
         height: 21
       alignment: 9
@@ -413,8 +413,8 @@ TextureImporter:
     - name: Items-fence_sharp_center
       rect:
         serializedVersion: 2
-        x: 198
-        y: 198
+        x: 183
+        y: 195
         width: 32
         height: 22
       alignment: 9
@@ -423,8 +423,8 @@ TextureImporter:
     - name: Items-fence_sharp_left
       rect:
         serializedVersion: 2
-        x: 198
-        y: 174
+        x: 219
+        y: 195
         width: 32
         height: 22
       alignment: 9
@@ -433,8 +433,8 @@ TextureImporter:
     - name: Items-fence_sharp_right
       rect:
         serializedVersion: 2
-        x: 130
-        y: 168
+        x: 183
+        y: 169
         width: 32
         height: 22
       alignment: 9
@@ -443,8 +443,8 @@ TextureImporter:
     - name: Items-fence_sharp_single
       rect:
         serializedVersion: 2
-        x: 96
-        y: 164
+        x: 219
+        y: 169
         width: 32
         height: 22
       alignment: 9
@@ -453,8 +453,8 @@ TextureImporter:
     - name: Items-grass_bottom_center
       rect:
         serializedVersion: 2
-        x: 96
-        y: 141
+        x: 111
+        y: 151
         width: 32
         height: 9
       alignment: 9
@@ -463,8 +463,8 @@ TextureImporter:
     - name: Items-grass_bottom_left
       rect:
         serializedVersion: 2
-        x: 198
-        y: 140
+        x: 75
+        y: 147
         width: 32
         height: 9
       alignment: 9
@@ -473,8 +473,8 @@ TextureImporter:
     - name: Items-grass_bottom_right
       rect:
         serializedVersion: 2
-        x: 62
-        y: 6
+        x: 219
+        y: 155
         width: 32
         height: 10
       alignment: 9
@@ -483,8 +483,8 @@ TextureImporter:
     - name: Items-grass_bottom_single
       rect:
         serializedVersion: 2
-        x: 96
-        y: 152
+        x: 219
+        y: 141
         width: 32
         height: 10
       alignment: 9
@@ -493,8 +493,8 @@ TextureImporter:
     - name: Items-grass_top_center
       rect:
         serializedVersion: 2
-        x: 164
-        y: 135
+        x: 147
+        y: 151
         width: 32
         height: 9
       alignment: 9
@@ -503,8 +503,8 @@ TextureImporter:
     - name: Items-grass_top_left
       rect:
         serializedVersion: 2
-        x: 130
-        y: 134
+        x: 111
+        y: 138
         width: 32
         height: 9
       alignment: 9
@@ -513,8 +513,8 @@ TextureImporter:
     - name: Items-grass_top_right
       rect:
         serializedVersion: 2
-        x: 96
-        y: 130
+        x: 75
+        y: 134
         width: 32
         height: 9
       alignment: 9
@@ -523,8 +523,8 @@ TextureImporter:
     - name: Items-grass_top_single
       rect:
         serializedVersion: 2
-        x: 198
-        y: 129
+        x: 147
+        y: 138
         width: 32
         height: 9
       alignment: 9
@@ -533,8 +533,8 @@ TextureImporter:
     - name: Items-wall_bottom_left
       rect:
         serializedVersion: 2
-        x: 36
-        y: 222
+        x: 247
+        y: 88
         width: 5
         height: 32
       alignment: 9
@@ -543,8 +543,8 @@ TextureImporter:
     - name: Items-wall_bottom_right
       rect:
         serializedVersion: 2
-        x: 70
-        y: 188
+        x: 75
+        y: 52
         width: 5
         height: 32
       alignment: 9
@@ -553,8 +553,8 @@ TextureImporter:
     - name: Items-wall_center_left
       rect:
         serializedVersion: 2
-        x: 77
-        y: 188
+        x: 75
+        y: 98
         width: 5
         height: 32
       alignment: 9
@@ -563,8 +563,8 @@ TextureImporter:
     - name: Items-wall_center_right
       rect:
         serializedVersion: 2
-        x: 84
-        y: 188
+        x: 75
+        y: 16
         width: 5
         height: 32
       alignment: 9
@@ -573,8 +573,8 @@ TextureImporter:
     - name: Items-wall_single_left
       rect:
         serializedVersion: 2
-        x: 232
-        y: 188
+        x: 84
+        y: 52
         width: 5
         height: 32
       alignment: 9
@@ -583,8 +583,8 @@ TextureImporter:
     - name: Items-wall_single_right
       rect:
         serializedVersion: 2
-        x: 239
-        y: 188
+        x: 84
+        y: 98
         width: 5
         height: 32
       alignment: 9
@@ -593,8 +593,8 @@ TextureImporter:
     - name: Items-wall_top_left
       rect:
         serializedVersion: 2
-        x: 246
-        y: 188
+        x: 84
+        y: 16
         width: 5
         height: 32
       alignment: 9
@@ -603,8 +603,8 @@ TextureImporter:
     - name: Items-wall_top_right
       rect:
         serializedVersion: 2
-        x: 36
-        y: 222
+        x: 247
+        y: 88
         width: 5
         height: 32
       alignment: 9
