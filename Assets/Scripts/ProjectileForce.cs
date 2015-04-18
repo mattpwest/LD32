@@ -2,17 +2,17 @@
 using System.Collections;
 
 public class ProjectileForce : MonoBehaviour {
-	public float speed = 0.001f;
+	public float force = 10f;
 
 	private Rigidbody2D body;
 
 	// Use this for initialization
 	void Start () {
 		body = GetComponent<Rigidbody2D> ();
+		body.AddForce (new Vector2(force * transform.localScale.x, 0), ForceMode2D.Impulse);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		body.velocity = new Vector2 (speed * transform.localScale.x, 0);
 	}
 }

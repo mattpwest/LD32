@@ -5,10 +5,13 @@ using AssemblyCSharp;
 public class BadGuyShoot : MonoBehaviour {
 
 	public GameObject projectilePrefab;
+	public Transform sightStart, sightEnd;
+	public bool canShoot = true;
+	public LayerMask layerMask;
 
 	private Rigidbody2D body;
-	public bool canShoot = true;
 	private float timer = 0f;
+	public bool spotted;
 
 	// Use this for initialization
 	void Start () {
@@ -24,11 +27,16 @@ public class BadGuyShoot : MonoBehaviour {
  
 			canShoot = true;
 		}
+		Raycasting ();
+		Behaviour ();
 	}
 
-	void OnTriggerEnter2D(Collider2D collision){
-		Debug.Log (collision.gameObject.layer);
-		if (collision.gameObject.layer == (int)Layer.GoodGuy && canShoot) {
+	void Raycasting(){
+		spotted = Physics2D.Linecast (sightStart.position, sightEnd.position, layerMask);
+	}
+
+	void Behaviour(){
+		if (spotted && canShoot) {
 			canShoot = false;
 			Shoot();
 		}
