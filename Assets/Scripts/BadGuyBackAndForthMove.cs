@@ -1,15 +1,16 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
+using AssemblyCSharp;
 
 public class BadGuyBackAndForthMove : MonoBehaviour {
 
 	public float maxSpeed = 5f;
-	private bool facingRight;
+	private FacingDirection facing;
 	private Rigidbody2D body;
 
 	// Use this for initialization
 	void Start () {
-		facingRight = true;
+		facing = FacingDirection.Right;
 		body = GetComponent<Rigidbody2D> ();
 	}
 	
@@ -18,15 +19,20 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 		if (body.velocity.x == 0) {
 			flip();
 		}
-		body.velocity = new Vector2 (maxSpeed, body.velocity.y);
+
+		var speed = maxSpeed * (int)facing;
+		body.velocity = new Vector2 (speed, body.velocity.y);
 	}
 
 	void flip(){
-		facingRight = !facingRight;
-		flipVelocity ();
-	}
+		if (facing == FacingDirection.Right) {
+			facing = FacingDirection.Left;
+		} else if (facing == FacingDirection.Left) {
+			facing = FacingDirection.Right;
+		}
 
-	void flipVelocity(){
-		maxSpeed = maxSpeed * -1;
+		var theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
 	}
 }
