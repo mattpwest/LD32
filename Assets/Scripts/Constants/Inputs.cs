@@ -14,6 +14,7 @@ namespace AssemblyCSharp
 	{
 		public static string Horizontal { get { return "Horizontal"; } }
 		public static string Jump { get { return "Jump"; } }
+		public static string Shoot { get { return "Fire1"; } }
 	}
 }
 
