@@ -14,11 +14,16 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (body.velocity.x == 0) {
-			flipVelocity();
+			flip();
 		}
 		body.velocity = new Vector2 (maxSpeed, body.velocity.y);
+	}
+
+	void flip(){
+		facingRight = !facingRight;
+		flipVelocity ();
 	}
 
 	void flipVelocity(){
