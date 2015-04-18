@@ -6,8 +6,9 @@ public class PlayerInput : MonoBehaviour {
 	
 	public float maxSpeed = 10f;
 	public float jumpForce = 250f;
-	private FacingDirection facingDirection = FacingDirection.Right;
+	private FacingDirection facing = FacingDirection.Right;
 	private Rigidbody2D body;
+	public Animator animator;
 
 	public bool grounded = false;
 	public bool shouldJump = false;
@@ -27,6 +28,11 @@ public class PlayerInput : MonoBehaviour {
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
 
 		HandleInput ();
+
+		animator.SetBool ("Grounded", grounded);
+		animator.SetBool ("Walking", body.velocity.x != 0);
+
+		UpdateFacing ();
 	}
 
 	void FixedUpdate () {
@@ -45,5 +51,17 @@ public class PlayerInput : MonoBehaviour {
 		if (shouldJump) {
 			body.AddForce(new Vector2(0, jumpForce));
 		}
+	}
+
+	void UpdateFacing(){
+		var newFacing = body.velocity.x > 0 ? FacingDirection.Right : FacingDirection.Left;
+		if ((body.velocity.x == 0) || (newFacing.Equals (facing))) {
+			return;
+		}
+
+		facing = newFacing;
+		var theScale = body.transform.localScale;
+		theScale.x = (int) facing;
+		body.transform.localScale = theScale;
 	}
 }
