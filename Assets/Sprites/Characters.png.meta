@@ -417,1828 +417,1828 @@ TextureImporter:
     - name: BadGuy1-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 142
-        y: 48
-        width: 26
-        height: 30
-      alignment: 9
-      pivot: {x: .730769217, y: .666666687}
+        x: 470
+        y: 982
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 142
-        y: 48
-        width: 26
-        height: 30
-      alignment: 9
-      pivot: {x: .730769217, y: .666666687}
+        x: 470
+        y: 982
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 210
-        width: 26
-        height: 31
-      alignment: 9
-      pivot: {x: .730769217, y: .645161271}
+        x: 470
+        y: 940
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 210
-        width: 26
-        height: 31
-      alignment: 9
-      pivot: {x: .730769217, y: .645161271}
+        x: 470
+        y: 940
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 487
-        y: 177
-        width: 23
-        height: 30
-      alignment: 9
-      pivot: {x: .826086938, y: .666666687}
+        x: 470
+        y: 898
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 487
-        y: 177
-        width: 23
-        height: 30
-      alignment: 9
-      pivot: {x: .826086938, y: .666666687}
+        x: 470
+        y: 898
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 319
-        y: 301
-        width: 23
-        height: 31
-      alignment: 9
-      pivot: {x: .826086938, y: .645161271}
+        x: 190
+        y: 591
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 319
-        y: 301
-        width: 23
-        height: 31
-      alignment: 9
-      pivot: {x: .826086938, y: .645161271}
+        x: 190
+        y: 591
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_gun_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 244
-        width: 26
-        height: 33
-      alignment: 9
-      pivot: {x: .730769217, y: .606060624}
+        x: 232
+        y: 591
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 43
-        width: 28
-        height: 35
-      alignment: 9
-      pivot: {x: .678571403, y: .571428597}
+        x: 274
+        y: 591
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 94
-        width: 26
-        height: 33
-      alignment: 9
-      pivot: {x: .730769217, y: .606060624}
+        x: 316
+        y: 591
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 417
-        y: 258
-        width: 33
-        height: 32
-      alignment: 9
-      pivot: {x: .575757563, y: .625}
+        x: 358
+        y: 554
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 344
-        y: 439
-        width: 38
-        height: 32
-      alignment: 9
-      pivot: {x: .5, y: .625}
+        x: 400
+        y: 542
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 88
-        y: 11
-        width: 26
-        height: 32
-      alignment: 9
-      pivot: {x: .730769217, y: .625}
+        x: 442
+        y: 516
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-shoot_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 210
-        width: 26
-        height: 31
-      alignment: 9
-      pivot: {x: .730769217, y: .645161271}
+        x: 96
+        y: 549
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-shoot_1
       rect:
         serializedVersion: 2
-        x: 157
-        y: 359
-        width: 33
-        height: 30
-      alignment: 9
-      pivot: {x: .575757563, y: .666666687}
+        x: 2
+        y: 539
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-shoot_2
       rect:
         serializedVersion: 2
-        x: 344
-        y: 407
-        width: 38
-        height: 30
-      alignment: 9
-      pivot: {x: .5, y: .666666687}
+        x: 44
+        y: 539
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-shoot_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 16
-        width: 26
-        height: 30
-      alignment: 9
-      pivot: {x: .730769217, y: .666666687}
+        x: 138
+        y: 549
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 92
-        y: 95
-        width: 26
-        height: 32
-      alignment: 9
-      pivot: {x: .615384638, y: .625}
+        x: 180
+        y: 549
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 244
-        width: 27
-        height: 33
-      alignment: 9
-      pivot: {x: .629629612, y: .606060624}
+        x: 222
+        y: 549
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 92
-        y: 210
-        width: 27
-        height: 32
-      alignment: 9
-      pivot: {x: .629629612, y: .625}
+        x: 264
+        y: 549
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 244
-        width: 27
-        height: 33
-      alignment: 9
-      pivot: {x: .629629612, y: .606060624}
+        x: 222
+        y: 549
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 466
-        y: 171
-        width: 19
-        height: 32
-      alignment: 9
-      pivot: {x: .894736826, y: .625}
+        x: 306
+        y: 549
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 491
-        y: 277
-        width: 19
-        height: 33
-      alignment: 9
-      pivot: {x: .894736826, y: .606060624}
+        x: 348
+        y: 512
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 254
-        y: 283
-        width: 24
-        height: 32
-      alignment: 9
-      pivot: {x: .833333313, y: .625}
+        x: 390
+        y: 500
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 491
-        y: 277
-        width: 19
-        height: 33
-      alignment: 9
-      pivot: {x: .894736826, y: .606060624}
+        x: 348
+        y: 512
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 174
-        width: 29
-        height: 34
-      alignment: 9
-      pivot: {x: .741379321, y: .661764681}
+        x: 418
+        y: 863
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 174
-        width: 29
-        height: 34
-      alignment: 9
-      pivot: {x: .741379321, y: .661764681}
+        x: 418
+        y: 863
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 404
-        y: 147
-        width: 29
-        height: 35
-      alignment: 9
-      pivot: {x: .741379321, y: .642857134}
+        x: 465
+        y: 851
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 404
-        y: 147
-        width: 29
-        height: 35
-      alignment: 9
-      pivot: {x: .741379321, y: .642857134}
+        x: 465
+        y: 851
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 90
-        y: 175
-        width: 27
-        height: 33
-      alignment: 9
-      pivot: {x: .796296299, y: .681818187}
+        x: 106
+        y: 816
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 175
-        width: 27
-        height: 33
-      alignment: 9
-      pivot: {x: .796296299, y: .681818187}
+        x: 106
+        y: 816
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 138
-        width: 27
-        height: 34
-      alignment: 9
-      pivot: {x: .796296299, y: .661764681}
+        x: 2
+        y: 806
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 33
-        y: 138
-        width: 27
-        height: 34
-      alignment: 9
-      pivot: {x: .796296299, y: .661764681}
+        x: 2
+        y: 806
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-jump_gun_0
       rect:
         serializedVersion: 2
-        x: 435
-        y: 129
-        width: 29
-        height: 35
-      alignment: 9
-      pivot: {x: .741379321, y: .642857134}
+        x: 49
+        y: 806
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 477
-        y: 435
-        width: 33
-        height: 38
-      alignment: 9
-      pivot: {x: .651515126, y: .592105269}
+        x: 153
+        y: 816
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 92
-        width: 29
-        height: 35
-      alignment: 9
-      pivot: {x: .741379321, y: .642857134}
+        x: 200
+        y: 816
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 478
-        y: 475
-        width: 32
-        height: 35
-      alignment: 9
-      pivot: {x: .609375, y: .642857134}
+        x: 247
+        y: 816
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 392
-        y: 441
-        width: 40
-        height: 35
-      alignment: 9
-      pivot: {x: .487500012, y: .642857134}
+        x: 294
+        y: 816
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 60
-        y: 43
-        width: 26
-        height: 35
-      alignment: 9
-      pivot: {x: .75, y: .642857134}
+        x: 341
+        y: 816
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-shoot_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 93
-        width: 29
-        height: 34
-      alignment: 9
-      pivot: {x: .741379321, y: .661764681}
+        x: 388
+        y: 816
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-shoot_1
       rect:
         serializedVersion: 2
-        x: 113
-        y: 322
-        width: 32
-        height: 34
-      alignment: 9
-      pivot: {x: .609375, y: .661764681}
+        x: 448
+        y: 804
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-shoot_2
       rect:
         serializedVersion: 2
-        x: 304
-        y: 437
-        width: 38
-        height: 34
-      alignment: 9
-      pivot: {x: .513157904, y: .661764681}
+        x: 96
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-shoot_3
       rect:
         serializedVersion: 2
-        x: 62
-        y: 174
-        width: 26
-        height: 34
-      alignment: 9
-      pivot: {x: .75, y: .661764681}
+        x: 2
+        y: 759
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 174
-        width: 27
-        height: 34
-      alignment: 9
-      pivot: {x: .685185194, y: .661764681}
+        x: 49
+        y: 759
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 6
-        width: 27
-        height: 35
-      alignment: 9
-      pivot: {x: .685185194, y: .642857134}
+        x: 143
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 138
-        width: 27
-        height: 34
-      alignment: 9
-      pivot: {x: .685185194, y: .661764681}
+        x: 190
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 30
-        y: 6
-        width: 27
-        height: 35
-      alignment: 9
-      pivot: {x: .685185194, y: .642857134}
+        x: 143
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3
-        width: 26
-        height: 36
-      alignment: 9
-      pivot: {x: .711538434, y: .625}
+        x: 237
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 41
-        width: 26
-        height: 37
-      alignment: 9
-      pivot: {x: .711538434, y: .608108103}
+        x: 284
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 284
-        width: 30
-        height: 36
-      alignment: 9
-      pivot: {x: .75, y: .625}
+        x: 331
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy2-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 41
-        width: 26
-        height: 37
-      alignment: 9
-      pivot: {x: .711538434, y: .608108103}
+        x: 284
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 157
-        y: 327
-        width: 33
-        height: 30
-      alignment: 9
-      pivot: {x: .651515126, y: .666666687}
+        x: 378
+        y: 680
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 157
-        y: 327
-        width: 33
-        height: 30
-      alignment: 9
-      pivot: {x: .651515126, y: .666666687}
+        x: 378
+        y: 680
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 122
-        y: 358
-        width: 33
-        height: 31
-      alignment: 9
-      pivot: {x: .651515126, y: .645161271}
+        x: 425
+        y: 668
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 122
-        y: 358
-        width: 33
-        height: 31
-      alignment: 9
-      pivot: {x: .651515126, y: .645161271}
+        x: 425
+        y: 668
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 487
-        y: 80
-        width: 21
-        height: 30
-      alignment: 9
-      pivot: {x: 1.02380955, y: .666666687}
+        x: 378
+        y: 638
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 487
-        y: 80
-        width: 21
-        height: 30
-      alignment: 9
-      pivot: {x: 1.02380955, y: .666666687}
+        x: 378
+        y: 638
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 487
-        y: 112
-        width: 21
-        height: 31
-      alignment: 9
-      pivot: {x: 1.02380955, y: .645161271}
+        x: 425
+        y: 626
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 487
-        y: 112
-        width: 21
-        height: 31
-      alignment: 9
-      pivot: {x: 1.02380955, y: .645161271}
+        x: 425
+        y: 626
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-jump_0
       rect:
         serializedVersion: 2
-        x: 452
-        y: 239
-        width: 33
-        height: 32
-      alignment: 9
-      pivot: {x: .651515126, y: .625}
+        x: 96
+        y: 633
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 6
-        width: 27
-        height: 35
-      alignment: 9
-      pivot: {x: .796296299, y: .571428597}
+        x: 2
+        y: 623
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 452
-        y: 239
-        width: 33
-        height: 32
-      alignment: 9
-      pivot: {x: .651515126, y: .625}
+        x: 96
+        y: 633
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 384
-        y: 407
-        width: 38
-        height: 32
-      alignment: 9
-      pivot: {x: .565789461, y: .625}
+        x: 49
+        y: 623
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 392
-        y: 478
-        width: 41
-        height: 32
-      alignment: 9
-      pivot: {x: .524390221, y: .625}
+        x: 143
+        y: 633
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 75
-        y: 323
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: .671875, y: .625}
+        x: 190
+        y: 633
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-shoot_0
       rect:
         serializedVersion: 2
-        x: 157
-        y: 327
-        width: 33
-        height: 30
-      alignment: 9
-      pivot: {x: .651515126, y: .666666687}
+        x: 378
+        y: 680
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-shoot_1
       rect:
         serializedVersion: 2
-        x: 304
-        y: 405
-        width: 38
-        height: 30
-      alignment: 9
-      pivot: {x: .565789461, y: .666666687}
+        x: 237
+        y: 633
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-shoot_2
       rect:
         serializedVersion: 2
-        x: 435
-        y: 480
-        width: 41
-        height: 30
-      alignment: 9
-      pivot: {x: .524390221, y: .666666687}
+        x: 284
+        y: 633
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-shoot_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 320
-        width: 32
-        height: 30
-      alignment: 9
-      pivot: {x: .671875, y: .666666687}
+        x: 331
+        y: 633
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 78
-        y: 357
-        width: 33
-        height: 31
-      alignment: 9
-      pivot: {x: .560606062, y: .645161271}
+        x: 378
+        y: 596
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 417
-        y: 224
-        width: 33
-        height: 32
-      alignment: 9
-      pivot: {x: .560606062, y: .625}
+        x: 425
+        y: 584
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 356
-        width: 33
-        height: 31
-      alignment: 9
-      pivot: {x: .560606062, y: .645161271}
+        x: 96
+        y: 591
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 417
-        y: 224
-        width: 33
-        height: 32
-      alignment: 9
-      pivot: {x: .560606062, y: .625}
+        x: 425
+        y: 584
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 324
-        y: 334
-        width: 18
-        height: 32
-      alignment: 9
-      pivot: {x: 1.02777779, y: .625}
+        x: 2
+        y: 581
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 491
-        y: 242
-        width: 19
-        height: 33
-      alignment: 9
-      pivot: {x: 1.02631581, y: .606060624}
+        x: 49
+        y: 581
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 254
-        y: 317
-        width: 24
-        height: 33
-      alignment: 9
-      pivot: {x: .9375, y: .606060624}
+        x: 143
+        y: 591
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 491
-        y: 242
-        width: 19
-        height: 33
-      alignment: 9
-      pivot: {x: 1.02631581, y: .606060624}
+        x: 49
+        y: 581
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 205
-        y: 392
-        width: 36
-        height: 37
-      alignment: 9
-      pivot: {x: .597222209, y: .608108103}
+        x: 378
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 205
-        y: 392
-        width: 36
-        height: 37
-      alignment: 9
-      pivot: {x: .597222209, y: .608108103}
+        x: 378
+        y: 769
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 344
-        y: 333
-        width: 36
-        height: 38
-      alignment: 9
-      pivot: {x: .597222209, y: .592105269}
+        x: 425
+        y: 757
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 344
-        y: 333
-        width: 36
-        height: 38
-      alignment: 9
-      pivot: {x: .597222209, y: .592105269}
+        x: 425
+        y: 757
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 373
-        y: 174
-        width: 29
-        height: 37
-      alignment: 9
-      pivot: {x: .741379321, y: .608108103}
+        x: 96
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 373
-        y: 174
-        width: 29
-        height: 37
-      alignment: 9
-      pivot: {x: .741379321, y: .608108103}
+        x: 96
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 373
-        y: 213
-        width: 29
-        height: 38
-      alignment: 9
-      pivot: {x: .741379321, y: .592105269}
+        x: 2
+        y: 712
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 373
-        y: 213
-        width: 29
-        height: 38
-      alignment: 9
-      pivot: {x: .741379321, y: .592105269}
+        x: 2
+        y: 712
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-jump_gun_0
       rect:
         serializedVersion: 2
-        x: 134
-        y: 431
-        width: 36
-        height: 39
-      alignment: 9
-      pivot: {x: .597222209, y: .576923072}
+        x: 49
+        y: 712
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 276
-        width: 29
-        height: 42
-      alignment: 9
-      pivot: {x: .741379321, y: .535714269}
+        x: 143
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 430
-        width: 36
-        height: 39
-      alignment: 9
-      pivot: {x: .597222209, y: .576923072}
+        x: 190
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 435
-        y: 439
-        width: 40
-        height: 39
-      alignment: 9
-      pivot: {x: .537500024, y: .576923072}
+        x: 237
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 263
-        y: 432
-        width: 39
-        height: 39
-      alignment: 9
-      pivot: {x: .551282048, y: .576923072}
+        x: 284
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 476
-        y: 394
-        width: 34
-        height: 39
-      alignment: 9
-      pivot: {x: .632352948, y: .576923072}
+        x: 331
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-shoot_0
       rect:
         serializedVersion: 2
-        x: 205
-        y: 353
-        width: 36
-        height: 37
-      alignment: 9
-      pivot: {x: .597222209, y: .608108103}
+        x: 378
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-shoot_1
       rect:
         serializedVersion: 2
-        x: 263
-        y: 473
-        width: 41
-        height: 37
-      alignment: 9
-      pivot: {x: .524390221, y: .608108103}
+        x: 425
+        y: 710
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-shoot_2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 473
-        width: 43
-        height: 37
-      alignment: 9
-      pivot: {x: .5, y: .608108103}
+        x: 96
+        y: 675
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-shoot_3
       rect:
         serializedVersion: 2
-        x: 418
-        y: 292
-        width: 35
-        height: 37
-      alignment: 9
-      pivot: {x: .614285707, y: .608108103}
+        x: 2
+        y: 665
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 382
-        y: 333
-        width: 36
-        height: 38
-      alignment: 9
-      pivot: {x: .513888896, y: .592105269}
+        x: 49
+        y: 665
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 429
-        width: 36
-        height: 39
-      alignment: 9
-      pivot: {x: .513888896, y: .576923072}
+        x: 143
+        y: 675
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 420
-        y: 331
-        width: 36
-        height: 38
-      alignment: 9
-      pivot: {x: .513888896, y: .592105269}
+        x: 190
+        y: 675
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 46
-        y: 429
-        width: 36
-        height: 39
-      alignment: 9
-      pivot: {x: .513888896, y: .576923072}
+        x: 143
+        y: 675
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 107
-        y: 281
-        width: 29
-        height: 39
-      alignment: 9
-      pivot: {x: .637931049, y: .576923072}
+        x: 237
+        y: 675
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 234
-        width: 29
-        height: 40
-      alignment: 9
-      pivot: {x: .637931049, y: .5625}
+        x: 284
+        y: 675
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 223
-        y: 311
-        width: 29
-        height: 39
-      alignment: 9
-      pivot: {x: .637931049, y: .576923072}
+        x: 331
+        y: 675
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 234
-        width: 29
-        height: 40
-      alignment: 9
-      pivot: {x: .637931049, y: .5625}
+        x: 284
+        y: 675
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 170
-        y: 48
-        width: 26
-        height: 30
-      alignment: 9
-      pivot: {x: .711538434, y: .583333313}
+        x: 86
+        y: 512
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 48
-        width: 26
-        height: 30
-      alignment: 9
-      pivot: {x: .711538434, y: .583333313}
+        x: 86
+        y: 512
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 13
-        width: 26
-        height: 31
-      alignment: 9
-      pivot: {x: .711538434, y: .564516127}
+        x: 2
+        y: 502
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 116
-        y: 13
-        width: 26
-        height: 31
-      alignment: 9
-      pivot: {x: .711538434, y: .564516127}
+        x: 2
+        y: 502
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 487
-        y: 145
-        width: 23
-        height: 30
-      alignment: 9
-      pivot: {x: .804347813, y: .583333313}
+        x: 41
+        y: 502
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 487
-        y: 145
-        width: 23
-        height: 30
-      alignment: 9
-      pivot: {x: .804347813, y: .583333313}
+        x: 41
+        y: 502
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 487
-        y: 209
-        width: 23
-        height: 31
-      alignment: 9
-      pivot: {x: .804347813, y: .564516127}
+        x: 125
+        y: 512
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 487
-        y: 209
-        width: 23
-        height: 31
-      alignment: 9
-      pivot: {x: .804347813, y: .564516127}
+        x: 125
+        y: 512
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-jump_gun_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 139
-        width: 26
-        height: 33
-      alignment: 9
-      pivot: {x: .711538434, y: .530303001}
+        x: 164
+        y: 512
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 137
-        width: 29
+        x: 203
+        y: 512
+        width: 37
         height: 35
-      alignment: 9
-      pivot: {x: .534482777, y: .5}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 139
-        width: 26
-        height: 33
-      alignment: 9
-      pivot: {x: .711538434, y: .530303001}
+        x: 164
+        y: 512
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 322
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: .578125, y: .546875}
+        x: 242
+        y: 512
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 422
-        y: 371
+        x: 281
+        y: 512
         width: 37
-        height: 31
-      alignment: 9
-      pivot: {x: .5, y: .564516127}
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 119
-        y: 140
-        width: 26
-        height: 32
-      alignment: 9
-      pivot: {x: .711538434, y: .546875}
+        x: 80
+        y: 475
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-shoot_0
       rect:
         serializedVersion: 2
-        x: 172
-        y: 16
-        width: 26
-        height: 30
-      alignment: 9
-      pivot: {x: .711538434, y: .583333313}
+        x: 2
+        y: 465
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-shoot_1
       rect:
         serializedVersion: 2
-        x: 452
-        y: 205
-        width: 33
-        height: 32
-      alignment: 9
-      pivot: {x: .560606062, y: .546875}
+        x: 41
+        y: 465
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-shoot_2
       rect:
         serializedVersion: 2
-        x: 344
-        y: 373
+        x: 119
+        y: 475
         width: 37
-        height: 32
-      alignment: 9
-      pivot: {x: .5, y: .546875}
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-shoot_3
       rect:
         serializedVersion: 2
-        x: 119
-        y: 176
-        width: 26
-        height: 32
-      alignment: 9
-      pivot: {x: .711538434, y: .546875}
+        x: 158
+        y: 475
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 383
-        y: 373
+        x: 197
+        y: 475
         width: 37
-        height: 32
-      alignment: 9
-      pivot: {x: .5, y: .546875}
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 424
-        y: 404
+        x: 236
+        y: 475
         width: 37
-        height: 33
-      alignment: 9
-      pivot: {x: .5, y: .530303001}
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 121
-        y: 247
-        width: 26
-        height: 32
-      alignment: 9
-      pivot: {x: .711538434, y: .546875}
+        x: 275
+        y: 475
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 88
-        y: 45
-        width: 26
-        height: 33
-      alignment: 9
-      pivot: {x: .711538434, y: .530303001}
+        x: 314
+        y: 475
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 324
-        y: 368
-        width: 18
+        x: 384
+        y: 463
+        width: 37
         height: 35
-      alignment: 9
-      pivot: {x: .805555582, y: .5}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 466
-        y: 137
-        width: 19
-        height: 32
-      alignment: 9
-      pivot: {x: .815789461, y: .546875}
+        x: 423
+        y: 439
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 46
-        width: 24
-        height: 32
-      alignment: 9
-      pivot: {x: .770833313, y: .546875}
+        x: 462
+        y: 439
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy5-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 466
-        y: 104
-        width: 19
-        height: 31
-      alignment: 9
-      pivot: {x: .815789461, y: .564516127}
+        x: 80
+        y: 438
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 458
-        y: 312
-        width: 36
+        x: 119
+        y: 435
+        width: 29
         height: 38
-      alignment: 9
-      pivot: {x: .666666687, y: .592105269}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 458
-        y: 312
-        width: 36
+        x: 119
+        y: 435
+        width: 29
         height: 38
-      alignment: 9
-      pivot: {x: .666666687, y: .592105269}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-idle_gun_2
       rect:
         serializedVersion: 2
         x: 2
-        y: 392
-        width: 36
+        y: 424
+        width: 29
         height: 39
-      alignment: 9
-      pivot: {x: .666666687, y: .576923072}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-idle_gun_3
       rect:
         serializedVersion: 2
         x: 2
-        y: 392
-        width: 36
+        y: 424
+        width: 29
         height: 39
-      alignment: 9
-      pivot: {x: .666666687, y: .576923072}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 342
-        y: 210
-        width: 29
-        height: 38
-      alignment: 9
-      pivot: {x: .827586234, y: .592105269}
+        x: 106
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 342
-        y: 210
-        width: 29
-        height: 38
-      alignment: 9
-      pivot: {x: .827586234, y: .592105269}
+        x: 106
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 280
-        y: 284
-        width: 29
-        height: 39
-      alignment: 9
-      pivot: {x: .827586234, y: .576923072}
+        x: 158
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 280
-        y: 284
-        width: 29
-        height: 39
-      alignment: 9
-      pivot: {x: .827586234, y: .576923072}
+        x: 158
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-jump_gun_0
       rect:
         serializedVersion: 2
-        x: 172
-        y: 431
-        width: 36
+        x: 33
+        y: 424
+        width: 29
         height: 39
-      alignment: 9
-      pivot: {x: .666666687, y: .576923072}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 279
-        width: 31
-        height: 42
-      alignment: 9
-      pivot: {x: .774193525, y: .535714269}
+        x: 210
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 172
-        y: 431
-        width: 36
+        x: 472
+        y: 679
+        width: 38
         height: 39
-      alignment: 9
-      pivot: {x: .666666687, y: .576923072}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 91
-        y: 471
-        width: 41
+        x: 472
+        y: 638
+        width: 38
         height: 39
-      alignment: 9
-      pivot: {x: .585365832, y: .576923072}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 47
-        y: 470
-        width: 42
+        x: 472
+        y: 762
+        width: 38
         height: 40
-      alignment: 9
-      pivot: {x: .571428597, y: .5625}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 344
-        y: 291
-        width: 35
+        x: 472
+        y: 720
+        width: 38
         height: 40
-      alignment: 9
-      pivot: {x: .685714304, y: .5625}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-shoot_0
       rect:
         serializedVersion: 2
-        x: 458
-        y: 312
-        width: 36
+        x: 472
+        y: 598
+        width: 38
         height: 38
-      alignment: 9
-      pivot: {x: .666666687, y: .592105269}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-shoot_1
       rect:
         serializedVersion: 2
-        x: 134
-        y: 472
-        width: 41
+        x: 472
+        y: 558
+        width: 38
         height: 38
-      alignment: 9
-      pivot: {x: .585365832, y: .592105269}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-shoot_2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 433
-        width: 42
+        x: 432
+        y: 476
+        width: 38
         height: 38
-      alignment: 9
-      pivot: {x: .571428597, y: .592105269}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-shoot_3
       rect:
         serializedVersion: 2
-        x: 381
-        y: 293
-        width: 35
+        x: 472
+        y: 476
+        width: 38
         height: 38
-      alignment: 9
-      pivot: {x: .685714304, y: .592105269}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 391
-        width: 36
+        x: 64
+        y: 398
+        width: 29
         height: 38
-      alignment: 9
-      pivot: {x: .583333313, y: .592105269}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 461
-        y: 352
-        width: 36
+        x: 353
+        y: 470
+        width: 29
         height: 40
-      alignment: 9
-      pivot: {x: .583333313, y: .5625}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 84
-        y: 390
-        width: 36
+        x: 2
+        y: 384
+        width: 29
         height: 38
-      alignment: 9
-      pivot: {x: .583333313, y: .592105269}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 461
-        y: 352
-        width: 36
+        x: 353
+        y: 470
+        width: 29
         height: 40
-      alignment: 9
-      pivot: {x: .583333313, y: .5625}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 311
-        y: 260
-        width: 29
-        height: 39
-      alignment: 9
-      pivot: {x: .724137902, y: .576923072}
+        x: 262
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 192
-        y: 311
-        width: 29
-        height: 40
-      alignment: 9
-      pivot: {x: .724137902, y: .5625}
+        x: 314
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 280
-        y: 243
-        width: 29
-        height: 39
-      alignment: 9
-      pivot: {x: .724137902, y: .576923072}
+        x: 366
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy1-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 311
-        width: 29
-        height: 40
-      alignment: 9
-      pivot: {x: .724137902, y: .5625}
+        x: 314
+        y: 863
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 243
-        y: 352
-        width: 36
-        height: 37
-      alignment: 9
-      pivot: {x: .666666687, y: .743243217}
+        x: 2
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 243
-        y: 352
-        width: 36
-        height: 37
-      alignment: 9
-      pivot: {x: .666666687, y: .743243217}
+        x: 2
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 389
-        width: 36
-        height: 38
-      alignment: 9
-      pivot: {x: .666666687, y: .723684192}
+        x: 54
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 389
-        width: 36
-        height: 38
-      alignment: 9
-      pivot: {x: .666666687, y: .723684192}
+        x: 54
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 435
-        y: 166
-        width: 29
-        height: 37
-      alignment: 9
-      pivot: {x: .827586234, y: .743243217}
+        x: 106
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 435
-        y: 166
-        width: 29
-        height: 37
-      alignment: 9
-      pivot: {x: .827586234, y: .743243217}
+        x: 106
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 404
-        y: 184
-        width: 29
-        height: 38
-      alignment: 9
-      pivot: {x: .827586234, y: .723684192}
+        x: 158
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 404
-        y: 184
-        width: 29
-        height: 38
-      alignment: 9
-      pivot: {x: .827586234, y: .723684192}
+        x: 158
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-jump_gun_0
       rect:
         serializedVersion: 2
         x: 210
-        y: 431
-        width: 36
-        height: 39
-      alignment: 9
-      pivot: {x: .666666687, y: .705128193}
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 240
-        width: 29
-        height: 42
-      alignment: 9
-      pivot: {x: .827586234, y: .65476191}
+        x: 262
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 248
-        y: 391
-        width: 36
-        height: 39
-      alignment: 9
-      pivot: {x: .666666687, y: .705128193}
+        x: 314
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 177
-        y: 472
-        width: 41
-        height: 38
-      alignment: 9
-      pivot: {x: .585365832, y: .723684192}
+        x: 366
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 220
-        y: 472
-        width: 41
-        height: 38
-      alignment: 9
-      pivot: {x: .585365832, y: .723684192}
+        x: 418
+        y: 967
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 381
-        y: 253
-        width: 34
-        height: 38
-      alignment: 9
-      pivot: {x: .70588237, y: .723684192}
+        x: 2
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-shoot_0
       rect:
         serializedVersion: 2
-        x: 281
-        y: 325
-        width: 36
-        height: 37
-      alignment: 9
-      pivot: {x: .666666687, y: .743243217}
+        x: 54
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-shoot_1
       rect:
         serializedVersion: 2
-        x: 306
-        y: 473
-        width: 41
-        height: 37
-      alignment: 9
-      pivot: {x: .585365832, y: .743243217}
+        x: 106
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-shoot_2
       rect:
         serializedVersion: 2
-        x: 349
-        y: 473
-        width: 41
-        height: 37
-      alignment: 9
-      pivot: {x: .585365832, y: .743243217}
+        x: 158
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-shoot_3
       rect:
         serializedVersion: 2
-        x: 455
-        y: 273
-        width: 34
-        height: 37
-      alignment: 9
-      pivot: {x: .70588237, y: .743243217}
+        x: 210
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 352
-        width: 36
-        height: 38
-      alignment: 9
-      pivot: {x: .583333313, y: .723684192}
+        x: 262
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 286
-        y: 364
-        width: 36
-        height: 39
-      alignment: 9
-      pivot: {x: .583333313, y: .705128193}
+        x: 314
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 167
-        y: 391
-        width: 36
-        height: 38
-      alignment: 9
-      pivot: {x: .583333313, y: .723684192}
+        x: 366
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 286
-        y: 364
-        width: 36
-        height: 39
-      alignment: 9
-      pivot: {x: .583333313, y: .705128193}
+        x: 314
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 342
-        y: 250
-        width: 29
-        height: 39
-      alignment: 9
-      pivot: {x: .724137902, y: .705128193}
+        x: 418
+        y: 910
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 147
-        y: 285
-        width: 29
-        height: 40
-      alignment: 9
-      pivot: {x: .724137902, y: .6875}
+        x: 2
+        y: 853
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 311
-        y: 219
-        width: 29
-        height: 39
-      alignment: 9
-      pivot: {x: .724137902, y: .705128193}
+        x: 54
+        y: 853
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: GoodGuy2-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 147
-        y: 285
-        width: 29
-        height: 40
-      alignment: 9
-      pivot: {x: .724137902, y: .6875}
+        x: 2
+        y: 853
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ShotgunBlast-blast_0
       rect:
         serializedVersion: 2
-        x: 463
-        y: 422
+        x: 435
+        y: 846
         width: 11
         height: 15
       alignment: 0
