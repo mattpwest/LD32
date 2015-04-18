@@ -369,6 +369,7 @@ TextureImporter:
     21300724: GoodGuy2-walk_no_gun_2
     21300726: GoodGuy2-walk_no_gun_3
     21300728: ShotgunBlast-blast_0
+    21300730: SpitBall-spit_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -2241,6 +2242,16 @@ TextureImporter:
         y: 616
         width: 11
         height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpitBall-spit_0
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 609
+        width: 9
+        height: 5
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
