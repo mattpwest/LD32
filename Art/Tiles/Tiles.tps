@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>3.7.1</string>
         <key>fileName</key>
-        <string>C:/GameDev/Unity/LD32/Art/Characters/Characters.tps</string>
+        <string>C:/GameDev/Unity/LD32/Art/Tiles/Tiles.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Sprites/Characters.png</filename>
+        <filename>../../Assets/Sprites/Tiles.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -98,7 +98,7 @@
             <int>-1</int>
         </QSize>
         <key>reduceBorderArtifacts</key>
-        <true/>
+        <false/>
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
             <key>algorithm</key>
@@ -145,7 +145,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Sprites/Characters.tpsheet</filename>
+                <filename>../../Assets/Sprites/Tiles.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
