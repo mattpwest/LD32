@@ -75,13 +75,19 @@ public class PlayerInput : MonoBehaviour {
 		var body = clone.GetComponent<Rigidbody2D>();
 
 		var spawnPos = new Vector2(shootSpawn.right.x, shootSpawn.right.y);
-		//body.velocity.Normalize();
-		//body.velocity = body.velocity * shootStrength;
 
+		// Apply launch force
 		var force = spawnPos.normalized * shootStrength;
 		force = Vector2.Scale(force, new Vector2(transform.localScale.x, 1));
 		body.AddForce(force, ForceMode2D.Impulse);
 
+		// Set initial angle
+		var direction = ((body.position + force) - body.position);
+		direction.Normalize();
+		var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+		body.rotation = angle;
+
+		// Reset shot strength
 		shootStrength = 0.0f;
 	}
 
