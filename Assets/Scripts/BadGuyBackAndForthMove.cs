@@ -8,12 +8,15 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 	public Transform sightStart, shootSightEnd, walkSightEnd, groundCheck;
 	public LayerMask goodGuyLayerMask;
 	public LayerMask turnAroundLayerMask;
+	public LayerMask whatIsGround;
 
 	private FacingDirection facing = FacingDirection.Right;
 	private Rigidbody2D body;
 	private bool spotted;
 	private bool turnAround;
 	private bool noGround;
+	public bool grounded = false;
+	private float groundRadius = 0.1f;
 
 	// Use this for initialization
 	void Start () {
