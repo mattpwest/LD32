@@ -538,7 +538,7 @@ TextureImporter:
         width: 5
         height: 32
       alignment: 9
-      pivot: {x: 3.20000005, y: .5}
+      pivot: {x: -2.20000005, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Items-wall_bottom_right
       rect:
@@ -603,8 +603,8 @@ TextureImporter:
     - name: Items-wall_top_right
       rect:
         serializedVersion: 2
-        x: 247
-        y: 88
+        x: 93
+        y: 52
         width: 5
         height: 32
       alignment: 9

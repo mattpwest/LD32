@@ -5,7 +5,7 @@
 # http://www.codeandweb.com/texturepacker/unity
 #
 # Sprite sheet: Tiles.png (256 x 256)
-# $TexturePacker:SmartUpdate:b6bea883e4a244283351d9b7c2fe0387:f80cf702ee5aac0506f56755747570a0:a383634934879c94dae134e00b3635cc$
+# $TexturePacker:SmartUpdate:6720b279f2d9afc4ef4b2f4b56a412b5:c8a06cab9de3d80a156b75ba9a2a3b77:a383634934879c94dae134e00b3635cc$
 #
 
 Ground/ground_bottom;3;221;32;32;0.5;0.5
@@ -51,11 +51,11 @@ Items/grass_top_center;147;151;32;9;0.5;1.7777777777777777
 Items/grass_top_left;111;138;32;9;0.5;1.7777777777777777
 Items/grass_top_right;75;134;32;9;0.5;1.7777777777777777
 Items/grass_top_single;147;138;32;9;0.5;1.7777777777777777
-Items/wall_bottom_left;247;88;5;32;3.2;0.5
+Items/wall_bottom_left;247;88;5;32;-2.2;0.5
 Items/wall_bottom_right;75;52;5;32;3.2;0.5
 Items/wall_center_left;75;98;5;32;-2.2;0.5
 Items/wall_center_right;75;16;5;32;3.2;0.5
 Items/wall_single_left;84;52;5;32;-2.2;0.5
 Items/wall_single_right;84;98;5;32;3.2;0.5
 Items/wall_top_left;84;16;5;32;-2.2;0.5
-Items/wall_top_right;247;88;5;32;3.2;0.5
+Items/wall_top_right;93;52;5;32;3.2;0.5
