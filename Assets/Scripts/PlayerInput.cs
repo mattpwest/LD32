@@ -82,6 +82,11 @@ public class PlayerInput : MonoBehaviour {
 		force = Vector2.Scale(force, new Vector2(transform.localScale.x, 1));
 		body.AddForce(force, ForceMode2D.Impulse);
 
+		var direction = ((body.position + force) - body.position);
+		direction.Normalize();
+		var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+		body.rotation = angle;
+
 		shootStrength = 0.0f;
 	}
 
