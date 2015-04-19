@@ -5,34 +5,34 @@
 # http://www.codeandweb.com/texturepacker/unity
 #
 # Sprite sheet: Characters.png (512 x 1024)
-# $TexturePacker:SmartUpdate:57b81336ca1dd06e2b2f9c3828e16dbf:9e70b92bf21ac38411c30f93bc9c05f6:0df87b96c2f09780811b841162151b13$
+# $TexturePacker:SmartUpdate:004c70b7e08987eb501284fccd8c0636:69534e960e21c3e0797270f39b0c73e7:0df87b96c2f09780811b841162151b13$
 #
 
-BadGuy1/idle_gun_0;388;524;26;30;0.5;0.5
-BadGuy1/idle_gun_1;388;524;26;30;0.5;0.5
-BadGuy1/idle_gun_2;332;528;26;31;0.5;0.5
-BadGuy1/idle_gun_3;332;528;26;31;0.5;0.5
-BadGuy1/idle_no_gun_0;357;496;23;30;0.5;0.5
-BadGuy1/idle_no_gun_1;357;496;23;30;0.5;0.5
-BadGuy1/idle_no_gun_2;332;495;23;31;0.5;0.5
-BadGuy1/idle_no_gun_3;332;495;23;31;0.5;0.5
-BadGuy1/jump_gun_0;454;528;26;33;0.5;0.5
+BadGuy1/idle_gun_0;276;529;26;30;0.5;0.5
+BadGuy1/idle_gun_1;276;529;26;30;0.5;0.5
+BadGuy1/idle_gun_2;418;510;26;31;0.5;0.5
+BadGuy1/idle_gun_3;418;510;26;31;0.5;0.5
+BadGuy1/idle_no_gun_0;355;517;23;30;0.5;0.5
+BadGuy1/idle_no_gun_1;355;517;23;30;0.5;0.5
+BadGuy1/idle_no_gun_2;330;528;23;31;0.5;0.5
+BadGuy1/idle_no_gun_3;330;528;23;31;0.5;0.5
+BadGuy1/jump_gun_0;390;521;26;33;0.5;0.5
 BadGuy1/jump_no_gun_0;424;543;28;35;0.5;0.5
-BadGuy1/jump_shoot_0;482;528;26;33;0.5;0.5
+BadGuy1/jump_shoot_0;454;528;26;33;0.5;0.5
 BadGuy1/jump_shoot_1;435;876;33;32;0.5;0.5
 BadGuy1/jump_shoot_2;470;990;38;32;0.5;0.5
-BadGuy1/jump_shoot_3;276;527;26;32;0.5;0.5
-BadGuy1/shoot_0;360;528;26;31;0.5;0.5
+BadGuy1/jump_shoot_3;482;529;26;32;0.5;0.5
+BadGuy1/shoot_0;446;495;26;31;0.5;0.5
 BadGuy1/shoot_1;435;844;33;30;0.5;0.5
 BadGuy1/shoot_2;470;958;38;30;0.5;0.5
 BadGuy1/shoot_3;470;926;38;30;0.5;0.5
-BadGuy1/walk_gun_0;304;527;26;32;0.5;0.5
+BadGuy1/walk_gun_0;482;495;26;32;0.5;0.5
 BadGuy1/walk_gun_1;114;556;27;33;0.5;0.5
 BadGuy1/walk_gun_2;114;522;27;32;0.5;0.5
 BadGuy1/walk_gun_3;114;556;27;33;0.5;0.5
 BadGuy1/walk_no_gun_0;372;567;19;32;0.5;0.5
 BadGuy1/walk_no_gun_1;255;529;19;33;0.5;0.5
-BadGuy1/walk_no_gun_2;416;509;24;32;0.5;0.5
+BadGuy1/walk_no_gun_2;304;527;24;32;0.5;0.5
 BadGuy1/walk_no_gun_3;255;529;19;33;0.5;0.5
 BadGuy2/idle_gun_0;106;863;45;45;0.5;0.5
 BadGuy2/idle_gun_1;106;863;45;45;0.5;0.5
@@ -190,5 +190,8 @@ GoodGuy2/walk_no_gun_0;418;910;50;55;0.5;0.5
 GoodGuy2/walk_no_gun_1;2;853;50;55;0.5;0.5
 GoodGuy2/walk_no_gun_2;54;853;50;55;0.5;0.5
 GoodGuy2/walk_no_gun_3;2;853;50;55;0.5;0.5
+Health/heart_empty;372;549;16;16;0.5;0.5
+Health/heart_full;330;510;16;16;0.5;0.5
+Health/heart_half;380;503;16;16;0.5;0.5
 ShotgunBlast/blast_0;80;610;11;11;0.5;0.5
 SpitBall/spit_0;80;603;9;5;0.5;0.5
