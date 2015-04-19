@@ -5,7 +5,7 @@ using AssemblyCSharp;
 public class BadGuyBackAndForthMove : MonoBehaviour {
 
 	public float maxSpeed = 3f;
-	public Transform sightStart, sightEnd;
+	public Transform sightStart, shootSightEnd, walkSightEnd, groundCheck;
 	public LayerMask goodGuyLayerMask;
 	public LayerMask turnAroundLayerMask;
 
