@@ -18,12 +18,15 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 	public bool grounded = false;
 	private float groundRadius = 0.1f;
 
+
 	// Use this for initialization
 	void Start () {
 		body = GetComponent<Rigidbody2D> ();
 	}
 
 	void Update(){
+		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
+
 		Raycasting ();
 		Behaviour ();
 	}
@@ -50,11 +53,13 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 		turnAround = Physics2D.Linecast (sightStart.position, shootSightEnd.position, turnAroundLayerMask);
 		noGround = !Physics2D.Linecast (sightStart.position, walkSightEnd.position, (int)Layer.Ground);
 	}
-	
+
 	void Behaviour(){
-		if (spotted) {
+		if (spotted || !grounded) {
 			StopWalking ();
-		} else if (turnAround && body.velocity.x == 0) {
+		} else if (grounded && noGround){
+			Flip();
+		}else if (turnAround && body.velocity.x == 0) {
 			Flip ();
 		} else {
 			ContinueWalking ();
