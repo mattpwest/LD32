@@ -25,6 +25,7 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 	void Start () {
 		body = GetComponent<Rigidbody2D> ();
 		animator = GetComponent<Animator> ();
+		animator.SetBool ("Hostile", true);
 	}
 
 	void Update(){
