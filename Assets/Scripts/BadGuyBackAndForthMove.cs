@@ -9,10 +9,11 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 	public LayerMask goodGuyLayerMask;
 	public LayerMask turnAroundLayerMask;
 
-	public FacingDirection facing = FacingDirection.Right;
+	private FacingDirection facing = FacingDirection.Right;
 	private Rigidbody2D body;
-	public bool spotted;
-	public bool turnAround;
+	private bool spotted;
+	private bool turnAround;
+	private bool noGround;
 
 	// Use this for initialization
 	void Start () {
