@@ -5,6 +5,7 @@ using AssemblyCSharp;
 public class ProjectileForce : MonoBehaviour {
 	public float force = 10f;
 	public LayerMask layerMask;
+	public float opacityRetainedPercentage = 0.99f;
 
 	private Rigidbody2D body;
 	private Renderer renderer;
@@ -34,7 +35,7 @@ public class ProjectileForce : MonoBehaviour {
 
 	void FadeProjectile() {
 		Color color = renderer.material.color;
-		color.a *= 0.99f;
+		color.a *= opacityRetainedPercentage;
 		renderer.material.color = color;
 	}
 
