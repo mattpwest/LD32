@@ -6,7 +6,7 @@ using System;
 public class BadGuyBackAndForthMove : MonoBehaviour {
 
 	public float maxSpeed = 3f;
-	public Transform sightStart, shootSightEnd, walkSightEnd, groundCheck;
+	public Transform sightStart, shootSightEnd, walkEdgeSightEnd, groundCheck;
 	public LayerMask goodGuyLayerMask;
 	public LayerMask turnAroundLayerMask;
 	public LayerMask whatIsGround;
@@ -30,6 +30,7 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 
 	void Update(){
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
+		turnAround = Physics2D.OverlapCircle (sightStart.position, groundRadius, turnAroundLayerMask);
 
 		Raycasting ();
 		Behaviour ();
@@ -60,8 +61,7 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 
 	void Raycasting(){
 		spotted = Physics2D.Linecast (sightStart.position, shootSightEnd.position, goodGuyLayerMask);
-		turnAround = Physics2D.Linecast (sightStart.position, shootSightEnd.position, turnAroundLayerMask);
-		noGround = !Physics2D.Linecast (sightStart.position, walkSightEnd.position, whatIsGround);
+		noGround = !Physics2D.Linecast (sightStart.position, walkEdgeSightEnd.position, whatIsGround);
 	}
 
 	void Behaviour(){
