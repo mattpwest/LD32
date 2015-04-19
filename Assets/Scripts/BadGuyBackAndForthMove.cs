@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using AssemblyCSharp;
+using System;
 
 public class BadGuyBackAndForthMove : MonoBehaviour {
 
@@ -15,13 +16,15 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 	private bool spotted;
 	private bool turnAround;
 	private bool noGround;
-	public bool grounded = false;
+	private bool grounded = false;
 	private float groundRadius = 0.1f;
+	private Animator animator;
 
 
 	// Use this for initialization
 	void Start () {
 		body = GetComponent<Rigidbody2D> ();
+		animator = GetComponent<Animator> ();
 	}
 
 	void Update(){
@@ -29,12 +32,19 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 
 		Raycasting ();
 		Behaviour ();
+		UpdateAnimations ();
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
 	}
 
+	void UpdateAnimations() {
+		animator.SetBool ("Grounded", grounded);
+		animator.SetBool ("Walking", Math.Abs (body.velocity.x) > 0.1f);
+	}
+
+	
 	void Flip(){
 		if (facing == FacingDirection.Right) {
 			facing = FacingDirection.Left;
