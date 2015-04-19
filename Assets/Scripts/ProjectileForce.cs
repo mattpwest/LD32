@@ -6,6 +6,7 @@ public class ProjectileForce : MonoBehaviour {
 	public float force = 10f;
 	public LayerMask layerMask;
 	public float opacityRetainedPercentage = 0.99f;
+	public int damage = 1;
 
 	private Rigidbody2D body;
 	private Renderer renderer;
@@ -41,6 +42,11 @@ public class ProjectileForce : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collider){
 		if (collider.gameObject.tag.Equals(Tag.ProjectileCollidable)) {
+			var health = collider.gameObject.GetComponent<Health>();
+			if (health != null) {
+				health.Damage(damage);
+			}
+
 			Destroy (gameObject);
 		}
 	}
