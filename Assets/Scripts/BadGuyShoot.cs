@@ -13,10 +13,15 @@ public class BadGuyShoot : MonoBehaviour {
 	private Rigidbody2D body;
 	private float timer = 0f;
 	public bool spotted;
+	private Animator animator;
 
 	// Use this for initialization
 	void Start () {
+		animator = GetComponent<Animator>();
 		body = GetComponentInParent<Rigidbody2D> ();
+
+		animator.SetBool("Hostile", true);
+		animator.SetBool("Grounded", true);
 	}
 	
 	// Update is called once per frame
@@ -38,16 +43,19 @@ public class BadGuyShoot : MonoBehaviour {
 
 	void Behaviour(){
 		if (spotted && canShoot) {
-			canShoot = false;
 			Shoot();
 		}
 	}
 
 	void Shoot(){
-		GameObject clone;
+		timer = 0.0f;
+		canShoot = false;
+		animator.SetBool("Shooting", true);
+	}
 
+	void SpawnBullet() {
+		GameObject clone;
 		clone = (Instantiate (projectilePrefab, projectileSpawn.position, projectileSpawn.rotation)) as GameObject;
 		clone.transform.localScale = transform.localScale;
-
 	}
 }

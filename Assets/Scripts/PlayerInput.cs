@@ -12,11 +12,15 @@ public class PlayerInput : MonoBehaviour {
 	public Animator animator;
 
 	public bool grounded = false;
+
 	public bool shouldJump = false;
 	public bool shootCharging = false;
 	private float shootStrength = 0.0f;
-	private float shootStrengthMax = 4.0f;
-	private float shootChargeRate = 2.0f;
+	private float shootStrengthMax = 3.0f;
+	private float shootChargeRate = 1.0f;
+	public GameObject shootPrefab;
+	public Transform shootSpawn;
+
 	public Transform groundCheck;
 	float groundRadius = 0.1f;
 	public LayerMask whatIsGround;
@@ -50,6 +54,7 @@ public class PlayerInput : MonoBehaviour {
 		shouldJump = Input.GetButtonDown (Inputs.Jump) && grounded;
 
 		if (Input.GetButtonDown (Inputs.Shoot)) {
+			shootStrength = 1.0f;
 			shootCharging = true;
 		} else if (Input.GetButtonUp (Inputs.Shoot)) {
 			shootCharging = false;
@@ -61,17 +66,22 @@ public class PlayerInput : MonoBehaviour {
 			Debug.Log ("Delta time: " + Time.deltaTime);
 			shootStrength += shootChargeRate * Time.deltaTime;
 		}
-		
-		if ((shootCharging == false) && (shootStrength > 0.0f)) {
-			Shoot();
-		}
 	}
 	
 	void Shoot() {
 		Debug.Log("Shot fired with strength: " + shootStrength);
 		
-		// TODO: Spawn bullet
-		
+		GameObject clone = (Instantiate (shootPrefab, shootSpawn.position, shootSpawn.rotation)) as GameObject;
+		var body = clone.GetComponent<Rigidbody2D>();
+
+		var spawnPos = new Vector2(shootSpawn.right.x, shootSpawn.right.y);
+		//body.velocity.Normalize();
+		//body.velocity = body.velocity * shootStrength;
+
+		var force = spawnPos.normalized * shootStrength;
+		force = Vector2.Scale(force, new Vector2(transform.localScale.x, 1));
+		body.AddForce(force, ForceMode2D.Impulse);
+
 		shootStrength = 0.0f;
 	}
 
@@ -94,6 +104,10 @@ public class PlayerInput : MonoBehaviour {
 		
 		if (shouldJump) {
 			body.AddForce (new Vector2 (0, jumpForce));
+		}
+
+		if ((shootCharging == false) && (shootStrength > 0.0f)) {
+			Shoot();
 		}
 	}
 }

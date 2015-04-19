@@ -418,260 +418,260 @@ TextureImporter:
     - name: BadGuy1-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 470
-        y: 982
-        width: 40
-        height: 40
+        x: 388
+        y: 524
+        width: 26
+        height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 470
-        y: 982
-        width: 40
-        height: 40
+        x: 388
+        y: 524
+        width: 26
+        height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 470
-        y: 940
-        width: 40
-        height: 40
+        x: 332
+        y: 528
+        width: 26
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 470
-        y: 940
-        width: 40
-        height: 40
+        x: 332
+        y: 528
+        width: 26
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 470
-        y: 898
-        width: 40
-        height: 40
+        x: 357
+        y: 496
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 470
-        y: 898
-        width: 40
-        height: 40
+        x: 357
+        y: 496
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 469
-        y: 856
-        width: 40
-        height: 40
+        x: 332
+        y: 495
+        width: 23
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 469
-        y: 856
-        width: 40
-        height: 40
+        x: 332
+        y: 495
+        width: 23
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_gun_0
       rect:
         serializedVersion: 2
-        x: 469
-        y: 814
-        width: 40
-        height: 40
+        x: 454
+        y: 528
+        width: 26
+        height: 33
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 469
-        y: 772
-        width: 40
-        height: 40
+        x: 424
+        y: 543
+        width: 28
+        height: 35
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 425
-        y: 743
-        width: 40
-        height: 40
+        x: 482
+        y: 528
+        width: 26
+        height: 33
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 467
-        y: 730
-        width: 40
-        height: 40
+        x: 435
+        y: 876
+        width: 33
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 425
-        y: 701
-        width: 40
-        height: 40
+        x: 470
+        y: 990
+        width: 38
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 467
-        y: 688
-        width: 40
-        height: 40
+        x: 276
+        y: 527
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-shoot_0
       rect:
         serializedVersion: 2
-        x: 425
-        y: 659
-        width: 40
-        height: 40
+        x: 360
+        y: 528
+        width: 26
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-shoot_1
       rect:
         serializedVersion: 2
-        x: 467
-        y: 646
-        width: 40
-        height: 40
+        x: 435
+        y: 844
+        width: 33
+        height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-shoot_2
       rect:
         serializedVersion: 2
-        x: 425
-        y: 617
-        width: 40
-        height: 40
+        x: 470
+        y: 958
+        width: 38
+        height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-shoot_3
       rect:
         serializedVersion: 2
-        x: 467
-        y: 604
-        width: 40
-        height: 40
+        x: 470
+        y: 926
+        width: 38
+        height: 30
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 425
-        y: 575
-        width: 40
-        height: 40
+        x: 304
+        y: 527
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 467
-        y: 562
-        width: 40
-        height: 40
+        x: 114
+        y: 556
+        width: 27
+        height: 33
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 591
-        width: 40
-        height: 40
+        x: 114
+        y: 522
+        width: 27
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 467
-        y: 562
-        width: 40
-        height: 40
+        x: 114
+        y: 556
+        width: 27
+        height: 33
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 185
-        y: 591
-        width: 40
-        height: 40
+        x: 372
+        y: 567
+        width: 19
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 227
-        y: 591
-        width: 40
-        height: 40
+        x: 255
+        y: 529
+        width: 19
+        height: 33
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 269
-        y: 554
-        width: 40
-        height: 40
+        x: 416
+        y: 509
+        width: 24
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy1-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 227
-        y: 591
-        width: 40
-        height: 40
+        x: 255
+        y: 529
+        width: 19
+        height: 33
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -938,7 +938,7 @@ TextureImporter:
     - name: BadGuy3-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 284
+        x: 190
         y: 680
         width: 45
         height: 40
@@ -948,7 +948,7 @@ TextureImporter:
     - name: BadGuy3-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 284
+        x: 190
         y: 680
         width: 45
         height: 40
@@ -958,7 +958,7 @@ TextureImporter:
     - name: BadGuy3-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 331
+        x: 237
         y: 680
         width: 45
         height: 40
@@ -968,7 +968,7 @@ TextureImporter:
     - name: BadGuy3-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 331
+        x: 237
         y: 680
         width: 45
         height: 40
@@ -978,7 +978,7 @@ TextureImporter:
     - name: BadGuy3-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 378
+        x: 284
         y: 680
         width: 45
         height: 40
@@ -988,7 +988,7 @@ TextureImporter:
     - name: BadGuy3-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 378
+        x: 284
         y: 680
         width: 45
         height: 40
@@ -998,8 +998,8 @@ TextureImporter:
     - name: BadGuy3-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 284
-        y: 638
+        x: 331
+        y: 680
         width: 45
         height: 40
       alignment: 0
@@ -1008,8 +1008,8 @@ TextureImporter:
     - name: BadGuy3-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 284
-        y: 638
+        x: 331
+        y: 680
         width: 45
         height: 40
       alignment: 0
@@ -1018,8 +1018,8 @@ TextureImporter:
     - name: BadGuy3-jump_0
       rect:
         serializedVersion: 2
-        x: 331
-        y: 638
+        x: 378
+        y: 680
         width: 45
         height: 40
       alignment: 0
@@ -1028,8 +1028,8 @@ TextureImporter:
     - name: BadGuy3-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 378
-        y: 638
+        x: 464
+        y: 642
         width: 45
         height: 40
       alignment: 0
@@ -1038,14 +1038,24 @@ TextureImporter:
     - name: BadGuy3-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 331
-        y: 638
+        x: 378
+        y: 680
         width: 45
         height: 40
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-jump_shoot_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 638
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-jump_shoot_2
       rect:
         serializedVersion: 2
         x: 96
@@ -1055,37 +1065,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy3-jump_shoot_2
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 623
-        width: 45
-        height: 40
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-jump_shoot_3
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 623
-        width: 45
-        height: 40
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy3-shoot_0
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 680
-        width: 45
-        height: 40
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy3-shoot_1
       rect:
         serializedVersion: 2
         x: 143
@@ -1095,11 +1075,31 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy3-shoot_2
+    - name: BadGuy3-shoot_0
       rect:
         serializedVersion: 2
         x: 190
-        y: 633
+        y: 680
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-shoot_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 623
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-shoot_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 623
         width: 45
         height: 40
       alignment: 0
@@ -1109,7 +1109,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 237
-        y: 633
+        y: 638
         width: 45
         height: 40
       alignment: 0
@@ -1119,7 +1119,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 284
-        y: 596
+        y: 638
         width: 45
         height: 40
       alignment: 0
@@ -1129,7 +1129,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 331
-        y: 596
+        y: 638
         width: 45
         height: 40
       alignment: 0
@@ -1139,7 +1139,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 378
-        y: 596
+        y: 638
         width: 45
         height: 40
       alignment: 0
@@ -1149,13 +1149,33 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 331
-        y: 596
+        y: 638
         width: 45
         height: 40
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_no_gun_0
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 600
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_no_gun_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 596
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy3-walk_no_gun_2
       rect:
         serializedVersion: 2
         x: 96
@@ -1165,31 +1185,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy3-walk_no_gun_1
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 581
-        width: 45
-        height: 40
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy3-walk_no_gun_2
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 581
-        width: 45
-        height: 40
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy3-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 581
+        x: 190
+        y: 596
         width: 45
         height: 40
       alignment: 0
@@ -1288,8 +1288,8 @@ TextureImporter:
     - name: BadGuy4-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 722
+        x: 464
+        y: 731
         width: 45
         height: 45
       alignment: 0
@@ -1298,8 +1298,8 @@ TextureImporter:
     - name: BadGuy4-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 712
+        x: 96
+        y: 722
         width: 45
         height: 45
       alignment: 0
@@ -1308,7 +1308,7 @@ TextureImporter:
     - name: BadGuy4-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 49
+        x: 2
         y: 712
         width: 45
         height: 45
@@ -1318,8 +1318,8 @@ TextureImporter:
     - name: BadGuy4-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 722
+        x: 49
+        y: 712
         width: 45
         height: 45
       alignment: 0
@@ -1328,7 +1328,7 @@ TextureImporter:
     - name: BadGuy4-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 190
+        x: 143
         y: 722
         width: 45
         height: 45
@@ -1338,7 +1338,7 @@ TextureImporter:
     - name: BadGuy4-shoot_0
       rect:
         serializedVersion: 2
-        x: 237
+        x: 190
         y: 722
         width: 45
         height: 45
@@ -1348,7 +1348,7 @@ TextureImporter:
     - name: BadGuy4-shoot_1
       rect:
         serializedVersion: 2
-        x: 284
+        x: 237
         y: 722
         width: 45
         height: 45
@@ -1358,7 +1358,7 @@ TextureImporter:
     - name: BadGuy4-shoot_2
       rect:
         serializedVersion: 2
-        x: 331
+        x: 284
         y: 722
         width: 45
         height: 45
@@ -1368,7 +1368,7 @@ TextureImporter:
     - name: BadGuy4-shoot_3
       rect:
         serializedVersion: 2
-        x: 378
+        x: 331
         y: 722
         width: 45
         height: 45
@@ -1378,6 +1378,26 @@ TextureImporter:
     - name: BadGuy4-walk_gun_0
       rect:
         serializedVersion: 2
+        x: 378
+        y: 722
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_gun_1
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 684
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_gun_2
+      rect:
+        serializedVersion: 2
         x: 96
         y: 675
         width: 45
@@ -1385,7 +1405,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy4-walk_gun_1
+    - name: BadGuy4-walk_gun_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 684
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BadGuy4-walk_no_gun_0
       rect:
         serializedVersion: 2
         x: 2
@@ -1395,7 +1425,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy4-walk_gun_2
+    - name: BadGuy4-walk_no_gun_1
       rect:
         serializedVersion: 2
         x: 49
@@ -1405,17 +1435,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy4-walk_gun_3
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 665
-        width: 45
-        height: 45
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy4-walk_no_gun_0
+    - name: BadGuy4-walk_no_gun_2
       rect:
         serializedVersion: 2
         x: 143
@@ -1425,31 +1445,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy4-walk_no_gun_1
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 675
-        width: 45
-        height: 45
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BadGuy4-walk_no_gun_2
-      rect:
-        serializedVersion: 2
-        x: 237
-        y: 675
-        width: 45
-        height: 45
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: BadGuy4-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 190
-        y: 675
+        x: 49
+        y: 665
         width: 45
         height: 45
       alignment: 0
@@ -1458,8 +1458,8 @@ TextureImporter:
     - name: BadGuy5-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 311
-        y: 559
+        x: 470
+        y: 889
         width: 37
         height: 35
       alignment: 0
@@ -1468,8 +1468,8 @@ TextureImporter:
     - name: BadGuy5-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 311
-        y: 559
+        x: 470
+        y: 889
         width: 37
         height: 35
       alignment: 0
@@ -1478,8 +1478,8 @@ TextureImporter:
     - name: BadGuy5-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 350
-        y: 559
+        x: 470
+        y: 852
         width: 37
         height: 35
       alignment: 0
@@ -1488,8 +1488,8 @@ TextureImporter:
     - name: BadGuy5-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 350
-        y: 559
+        x: 470
+        y: 852
         width: 37
         height: 35
       alignment: 0
@@ -1498,8 +1498,8 @@ TextureImporter:
     - name: BadGuy5-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 423
-        y: 538
+        x: 470
+        y: 815
         width: 37
         height: 35
       alignment: 0
@@ -1508,8 +1508,8 @@ TextureImporter:
     - name: BadGuy5-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 423
-        y: 538
+        x: 470
+        y: 815
         width: 37
         height: 35
       alignment: 0
@@ -1518,8 +1518,8 @@ TextureImporter:
     - name: BadGuy5-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 462
-        y: 525
+        x: 469
+        y: 778
         width: 37
         height: 35
       alignment: 0
@@ -1528,8 +1528,8 @@ TextureImporter:
     - name: BadGuy5-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 462
-        y: 525
+        x: 469
+        y: 778
         width: 37
         height: 35
       alignment: 0
@@ -1538,8 +1538,8 @@ TextureImporter:
     - name: BadGuy5-jump_gun_0
       rect:
         serializedVersion: 2
-        x: 311
-        y: 522
+        x: 425
+        y: 765
         width: 37
         height: 35
       alignment: 0
@@ -1548,8 +1548,8 @@ TextureImporter:
     - name: BadGuy5-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 350
-        y: 522
+        x: 425
+        y: 728
         width: 37
         height: 35
       alignment: 0
@@ -1558,8 +1558,8 @@ TextureImporter:
     - name: BadGuy5-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 311
-        y: 522
+        x: 425
+        y: 765
         width: 37
         height: 35
       alignment: 0
@@ -1568,8 +1568,8 @@ TextureImporter:
     - name: BadGuy5-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 423
-        y: 501
+        x: 425
+        y: 691
         width: 37
         height: 35
       alignment: 0
@@ -1578,8 +1578,8 @@ TextureImporter:
     - name: BadGuy5-jump_shoot_2
       rect:
         serializedVersion: 2
-        x: 462
-        y: 488
+        x: 425
+        y: 654
         width: 37
         height: 35
       alignment: 0
@@ -1588,8 +1588,8 @@ TextureImporter:
     - name: BadGuy5-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 554
+        x: 425
+        y: 617
         width: 37
         height: 35
       alignment: 0
@@ -1598,8 +1598,8 @@ TextureImporter:
     - name: BadGuy5-shoot_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 544
+        x: 143
+        y: 596
         width: 37
         height: 35
       alignment: 0
@@ -1608,8 +1608,8 @@ TextureImporter:
     - name: BadGuy5-shoot_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 544
+        x: 2
+        y: 586
         width: 37
         height: 35
       alignment: 0
@@ -1618,8 +1618,8 @@ TextureImporter:
     - name: BadGuy5-shoot_2
       rect:
         serializedVersion: 2
-        x: 135
-        y: 554
+        x: 41
+        y: 586
         width: 37
         height: 35
       alignment: 0
@@ -1628,8 +1628,8 @@ TextureImporter:
     - name: BadGuy5-shoot_3
       rect:
         serializedVersion: 2
-        x: 174
-        y: 554
+        x: 237
+        y: 601
         width: 37
         height: 35
       alignment: 0
@@ -1638,8 +1638,8 @@ TextureImporter:
     - name: BadGuy5-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 213
-        y: 554
+        x: 276
+        y: 601
         width: 37
         height: 35
       alignment: 0
@@ -1648,8 +1648,8 @@ TextureImporter:
     - name: BadGuy5-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 517
+        x: 315
+        y: 601
         width: 37
         height: 35
       alignment: 0
@@ -1658,8 +1658,8 @@ TextureImporter:
     - name: BadGuy5-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 507
+        x: 354
+        y: 601
         width: 37
         height: 35
       alignment: 0
@@ -1668,8 +1668,8 @@ TextureImporter:
     - name: BadGuy5-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 41
-        y: 507
+        x: 424
+        y: 580
         width: 37
         height: 35
       alignment: 0
@@ -1678,8 +1678,8 @@ TextureImporter:
     - name: BadGuy5-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 119
-        y: 517
+        x: 463
+        y: 563
         width: 37
         height: 35
       alignment: 0
@@ -1688,8 +1688,8 @@ TextureImporter:
     - name: BadGuy5-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 158
-        y: 517
+        x: 237
+        y: 564
         width: 37
         height: 35
       alignment: 0
@@ -1698,8 +1698,8 @@ TextureImporter:
     - name: BadGuy5-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 197
-        y: 517
+        x: 143
+        y: 559
         width: 37
         height: 35
       alignment: 0
@@ -1708,8 +1708,8 @@ TextureImporter:
     - name: BadGuy5-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 236
-        y: 517
+        x: 182
+        y: 559
         width: 37
         height: 35
       alignment: 0
@@ -1718,8 +1718,8 @@ TextureImporter:
     - name: GoodGuy1-idle_gun_0
       rect:
         serializedVersion: 2
-        x: 111
-        y: 477
+        x: 33
+        y: 464
         width: 29
         height: 38
       alignment: 0
@@ -1728,8 +1728,8 @@ TextureImporter:
     - name: GoodGuy1-idle_gun_1
       rect:
         serializedVersion: 2
-        x: 111
-        y: 477
+        x: 33
+        y: 464
         width: 29
         height: 38
       alignment: 0
@@ -1738,8 +1738,8 @@ TextureImporter:
     - name: GoodGuy1-idle_gun_2
       rect:
         serializedVersion: 2
-        x: 472
-        y: 447
+        x: 137
+        y: 478
         width: 29
         height: 39
       alignment: 0
@@ -1748,8 +1748,8 @@ TextureImporter:
     - name: GoodGuy1-idle_gun_3
       rect:
         serializedVersion: 2
-        x: 472
-        y: 447
+        x: 137
+        y: 478
         width: 29
         height: 39
       alignment: 0
@@ -1758,8 +1758,8 @@ TextureImporter:
     - name: GoodGuy1-idle_no_gun_0
       rect:
         serializedVersion: 2
-        x: 142
-        y: 477
+        x: 310
+        y: 561
         width: 29
         height: 38
       alignment: 0
@@ -1768,8 +1768,8 @@ TextureImporter:
     - name: GoodGuy1-idle_no_gun_1
       rect:
         serializedVersion: 2
-        x: 142
-        y: 477
+        x: 310
+        y: 561
         width: 29
         height: 38
       alignment: 0
@@ -1778,8 +1778,8 @@ TextureImporter:
     - name: GoodGuy1-idle_no_gun_2
       rect:
         serializedVersion: 2
-        x: 472
-        y: 406
+        x: 2
+        y: 504
         width: 29
         height: 39
       alignment: 0
@@ -1788,8 +1788,8 @@ TextureImporter:
     - name: GoodGuy1-idle_no_gun_3
       rect:
         serializedVersion: 2
-        x: 472
-        y: 406
+        x: 2
+        y: 504
         width: 29
         height: 39
       alignment: 0
@@ -1798,8 +1798,8 @@ TextureImporter:
     - name: GoodGuy1-jump_gun_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 476
+        x: 33
+        y: 504
         width: 29
         height: 39
       alignment: 0
@@ -1808,8 +1808,8 @@ TextureImporter:
     - name: GoodGuy1-jump_no_gun_0
       rect:
         serializedVersion: 2
-        x: 377
-        y: 471
+        x: 104
+        y: 478
         width: 31
         height: 42
       alignment: 0
@@ -1818,8 +1818,8 @@ TextureImporter:
     - name: GoodGuy1-jump_shoot_0
       rect:
         serializedVersion: 2
-        x: 435
-        y: 785
+        x: 2
+        y: 545
         width: 32
         height: 39
       alignment: 0
@@ -1828,8 +1828,8 @@ TextureImporter:
     - name: GoodGuy1-jump_shoot_1
       rect:
         serializedVersion: 2
-        x: 389
-        y: 555
+        x: 36
+        y: 545
         width: 32
         height: 39
       alignment: 0
@@ -1839,7 +1839,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 435
-        y: 868
+        y: 802
         width: 32
         height: 40
       alignment: 0
@@ -1848,8 +1848,8 @@ TextureImporter:
     - name: GoodGuy1-jump_shoot_3
       rect:
         serializedVersion: 2
-        x: 435
-        y: 826
+        x: 80
+        y: 549
         width: 32
         height: 40
       alignment: 0
@@ -1858,8 +1858,8 @@ TextureImporter:
     - name: GoodGuy1-shoot_0
       rect:
         serializedVersion: 2
-        x: 389
-        y: 515
+        x: 276
+        y: 561
         width: 32
         height: 38
       alignment: 0
@@ -1868,8 +1868,8 @@ TextureImporter:
     - name: GoodGuy1-shoot_1
       rect:
         serializedVersion: 2
-        x: 275
-        y: 514
+        x: 221
+        y: 524
         width: 32
         height: 38
       alignment: 0
@@ -1878,8 +1878,8 @@ TextureImporter:
     - name: GoodGuy1-shoot_2
       rect:
         serializedVersion: 2
-        x: 309
-        y: 482
+        x: 143
+        y: 519
         width: 32
         height: 38
       alignment: 0
@@ -1888,8 +1888,8 @@ TextureImporter:
     - name: GoodGuy1-shoot_3
       rect:
         serializedVersion: 2
-        x: 343
-        y: 482
+        x: 70
+        y: 509
         width: 32
         height: 38
       alignment: 0
@@ -1898,8 +1898,8 @@ TextureImporter:
     - name: GoodGuy1-walk_gun_0
       rect:
         serializedVersion: 2
-        x: 173
-        y: 477
+        x: 341
+        y: 561
         width: 29
         height: 38
       alignment: 0
@@ -1908,8 +1908,8 @@ TextureImporter:
     - name: GoodGuy1-walk_gun_1
       rect:
         serializedVersion: 2
-        x: 410
-        y: 459
+        x: 393
+        y: 596
         width: 29
         height: 40
       alignment: 0
@@ -1918,8 +1918,8 @@ TextureImporter:
     - name: GoodGuy1-walk_gun_2
       rect:
         serializedVersion: 2
-        x: 204
-        y: 477
+        x: 393
+        y: 556
         width: 29
         height: 38
       alignment: 0
@@ -1928,8 +1928,8 @@ TextureImporter:
     - name: GoodGuy1-walk_gun_3
       rect:
         serializedVersion: 2
-        x: 410
-        y: 459
+        x: 393
+        y: 596
         width: 29
         height: 40
       alignment: 0
@@ -1938,8 +1938,8 @@ TextureImporter:
     - name: GoodGuy1-walk_no_gun_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 466
+        x: 64
+        y: 468
         width: 29
         height: 39
       alignment: 0
@@ -1948,8 +1948,8 @@ TextureImporter:
     - name: GoodGuy1-walk_no_gun_1
       rect:
         serializedVersion: 2
-        x: 441
-        y: 446
+        x: 177
+        y: 517
         width: 29
         height: 40
       alignment: 0
@@ -1958,8 +1958,8 @@ TextureImporter:
     - name: GoodGuy1-walk_no_gun_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 466
+        x: 2
+        y: 463
         width: 29
         height: 39
       alignment: 0
@@ -1968,8 +1968,8 @@ TextureImporter:
     - name: GoodGuy1-walk_no_gun_3
       rect:
         serializedVersion: 2
-        x: 441
-        y: 446
+        x: 177
+        y: 517
         width: 29
         height: 40
       alignment: 0
@@ -2238,18 +2238,18 @@ TextureImporter:
     - name: ShotgunBlast-blast_0
       rect:
         serializedVersion: 2
-        x: 269
-        y: 616
+        x: 80
+        y: 610
         width: 11
-        height: 15
+        height: 11
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SpitBall-spit_0
       rect:
         serializedVersion: 2
-        x: 269
-        y: 609
+        x: 80
+        y: 603
         width: 9
         height: 5
       alignment: 0
