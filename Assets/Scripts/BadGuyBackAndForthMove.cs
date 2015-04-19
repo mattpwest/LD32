@@ -58,7 +58,7 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 			StopWalking ();
 		} else if (grounded && noGround){
 			Flip();
-		}else if (turnAround && body.velocity.x == 0) {
+		} else if (turnAround && body.velocity.x == 0) {
 			Flip ();
 		} else {
 			ContinueWalking ();
