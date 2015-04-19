@@ -48,10 +48,9 @@ public class BadGuyBackAndForthMove : MonoBehaviour {
 	}
 
 	void Raycasting(){
-		Debug.DrawLine (sightStart.position, shootSightEnd.position, Color.green);
 		spotted = Physics2D.Linecast (sightStart.position, shootSightEnd.position, goodGuyLayerMask);
 		turnAround = Physics2D.Linecast (sightStart.position, shootSightEnd.position, turnAroundLayerMask);
-		noGround = !Physics2D.Linecast (sightStart.position, walkSightEnd.position, (int)Layer.Ground);
+		noGround = !Physics2D.Linecast (sightStart.position, walkSightEnd.position, whatIsGround);
 	}
 
 	void Behaviour(){
