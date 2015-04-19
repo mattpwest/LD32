@@ -374,6 +374,8 @@ TextureImporter:
     21300734: Health-heart_full
     21300736: Health-heart_half
     21300738: PistolBullet-bullet_0
+    21300740: Tobacco-tobacco_large
+    21300742: Tobacco-tobacco_small
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -2282,8 +2284,8 @@ TextureImporter:
     - name: ShotgunBlast-blast_0
       rect:
         serializedVersion: 2
-        x: 114
-        y: 54
+        x: 237
+        y: 761
         width: 11
         height: 11
       alignment: 0
@@ -2296,6 +2298,26 @@ TextureImporter:
         y: 42
         width: 9
         height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tobacco-tobacco_large
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 774
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tobacco-tobacco_small
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 421
+        width: 7
+        height: 9
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
