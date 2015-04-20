@@ -90,6 +90,7 @@ public class PlayerInput : MonoBehaviour {
 		// Apply launch force
 		var force = spawnPos.normalized * shootStrength;
 		force = Vector2.Scale(force, new Vector2(transform.localScale.x, 1));
+
 		body.AddForce(force, ForceMode2D.Impulse);
 
 		// Set initial angle

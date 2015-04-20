@@ -43,7 +43,8 @@ public class ProjectileForce : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D collider){
 		if (collider.gameObject.tag.Equals(Tag.ProjectileCollidable)) {
 			var health = collider.gameObject.GetComponent<Health>();
-			if (health != null) {
+
+			if (((layerMask & 1 << collider.gameObject.layer) == (1 << collider.gameObject.layer)) && (health != null)) {
 				health.Damage(damage);
 			}
 
