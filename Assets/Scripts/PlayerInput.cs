@@ -41,16 +41,26 @@ public class PlayerInput : MonoBehaviour {
 	void Update(){
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
 
+		HandleInput ();
+
 		UpdateFacing ();
 		UpdateShooting();
 		UpdateAnimations();
 
+		PlaySounds();
+
+		if ((shootCharging == false) && (shootStrength > 0.0f)) {
+			Shoot();
+		}
+	}
+
+	void PlaySounds() {
 		if (!source.isPlaying && shootCharging && shootStrength <= 3) {
 			source.Play ();
 		} else if (!shootCharging&& shootStrength > 0) {
 			source.Stop ();
 			source.PlayOneShot(spit);
-		} 
+		}
 	}
 
 	void UpdateAnimations() {
@@ -117,16 +127,10 @@ public class PlayerInput : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		HandleInput ();
-
 		body.velocity = new Vector2 (move * maxSpeed, body.velocity.y);
 		
 		if (shouldJump) {
 			body.AddForce (new Vector2 (0, jumpForce));
-		}
-
-		if ((shootCharging == false) && (shootStrength > 0.0f)) {
-			Shoot();
 		}
 	}
 }
