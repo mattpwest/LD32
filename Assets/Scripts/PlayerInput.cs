@@ -21,15 +21,19 @@ public class PlayerInput : MonoBehaviour {
 	public GameObject shootPrefab;
 	public Transform shootSpawn;
 
+	public AudioClip spit;
+
 	public Transform groundCheck;
 	float groundRadius = 0.1f;
 	public LayerMask whatIsGround;
 
 	float move;
+	private AudioSource source;
 	
 	// Use this for initialization
 	void Start () {
 		body = GetComponent<Rigidbody2D> ();
+		source = GetComponent<AudioSource> ();
 		//body.drag = 0.4f;
 	}
 	
@@ -41,6 +45,13 @@ public class PlayerInput : MonoBehaviour {
 		UpdateFacing ();
 		UpdateShooting();
 		UpdateAnimations();
+
+		if (!source.isPlaying && shootCharging && shootStrength <= 3) {
+			source.Play ();
+		} else if (!shootCharging&& shootStrength > 0) {
+			source.Stop ();
+			source.PlayOneShot(spit);
+		} 
 	}
 
 	void UpdateAnimations() {
