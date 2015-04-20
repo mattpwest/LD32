@@ -5,7 +5,7 @@
 # http://www.codeandweb.com/texturepacker/unity
 #
 # Sprite sheet: Characters.png (256 x 1024)
-# $TexturePacker:SmartUpdate:c778e3b54ef0ce1d5a9d48cb4dfab9dc:ab35f4a40f3b801875a798710f5e8c70:0df87b96c2f09780811b841162151b13$
+# $TexturePacker:SmartUpdate:3d38960e9b9060b89a42154a67ef19c0:09f009d0580fb4c6ca643444d240d991:0df87b96c2f09780811b841162151b13$
 #
 
 BadGuy1/idle_gun_0;165;356;26;30;0.5;0.5
@@ -193,7 +193,7 @@ GoodGuy2/walk_no_gun_3;2;625;50;55;0.5;0.5
 Health/heart_empty;96;49;16;16;0.5;0.5
 Health/heart_full;230;336;16;16;0.5;0.5
 Health/heart_half;231;212;16;16;0.5;0.5
-PistolBullet/bullet_0;221;428;3;2;0.5;0.5
+PistolBullet/bullet_0;192;768;4;4;0.5;0.5
 ShotgunBlast/blast_0;237;761;11;11;0.5;0.5
 SpitBall/spit_0;96;42;9;5;0.5;0.5
 Tobacco/tobacco_large;237;774;17;22;0.5;0.5
