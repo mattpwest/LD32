@@ -79,6 +79,10 @@ public class PlayerInput : MonoBehaviour {
 		} else if (Input.GetButtonUp (Inputs.Shoot)) {
 			shootCharging = false;
 		}
+
+		if (Input.GetButtonDown (Inputs.Cancel)) {
+			Application.Quit();
+		}
 	}
 
 	void UpdateShooting() {
