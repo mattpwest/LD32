@@ -1,0 +1,61 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Tiles.png (256 x 256)
+# $TexturePacker:SmartUpdate:f0dc1195e42d82470e7839047fcacdf8:9535aa5e9ae50ccf4e2fcf86cb098d3a:a383634934879c94dae134e00b3635cc$
+#
+
+Ground/ground_bottom;3;221;32;32;0.5;0.5
+Ground/ground_bottom_left;3;185;32;32;0.5;0.5
+Ground/ground_bottom_right;3;149;32;32;0.5;0.5
+Ground/ground_center;3;113;32;32;0.5;0.5
+Ground/ground_corner_bottom_left;219;126;14;14;1.1428571428571428;1.1428571428571428
+Ground/ground_corner_bottom_right;237;109;12;14;-0.3333333333333333;1.1428571428571428
+Ground/ground_corner_top_left;237;127;14;13;1.1428571428571428;-0.23076923076923084
+Ground/ground_corner_top_right;183;126;12;13;-0.3333333333333333;-0.23076923076923084
+Ground/ground_left;3;77;32;32;0.5;0.5
+Ground/ground_pillar_bottom;3;41;32;32;0.5;0.5
+Ground/ground_pillar_center;3;5;32;32;0.5;0.5
+Ground/ground_pillar_top;39;221;32;32;0.5;0.5
+Ground/ground_platform_center;75;221;32;32;0.5;0.5
+Ground/ground_platform_left;111;221;32;32;0.5;0.5
+Ground/ground_platform_right;147;221;32;32;0.5;0.5
+Ground/ground_platform_single;183;221;32;32;0.5;0.5
+Ground/ground_right;219;221;32;32;0.5;0.5
+Ground/ground_top;39;185;32;32;0.5;0.5
+Ground/ground_top_left;39;149;32;32;0.5;0.5
+Ground/ground_top_right;39;113;32;32;0.5;0.5
+Ground/sky;39;77;32;32;0.5;0.5
+Items/barrel;75;117;26;26;0.5;0.5769230769230769
+Items/cactus_0;111;189;32;28;0.5;0.5714285714285714
+Items/cactus_1;111;119;28;28;0.5714285714285714;0.5714285714285714
+Items/crate_0;39;41;32;32;0.5;0.5
+Items/crate_1;39;5;32;32;0.5;0.5
+Items/crate_2;75;185;32;32;0.5;0.5
+Items/fence_flat_center;111;164;32;21;0.5;0.7619047619047619
+Items/fence_flat_left;75;160;32;21;0.5;0.7619047619047619
+Items/fence_flat_right;183;170;32;21;0.5;0.7619047619047619
+Items/fence_flat_single;219;170;32;21;0.5;0.7619047619047619
+Items/fence_sharp_center;147;195;32;22;0.5;0.7272727272727273
+Items/fence_sharp_left;183;195;32;22;0.5;0.7272727272727273
+Items/fence_sharp_right;219;195;32;22;0.5;0.7272727272727273
+Items/fence_sharp_single;147;169;32;22;0.5;0.7272727272727273
+Items/grass_bottom_center;111;151;32;9;0.5;-0.7777777777777777
+Items/grass_bottom_left;75;147;32;9;0.5;-0.7777777777777777
+Items/grass_bottom_right;183;156;32;10;0.5;-0.6000000000000001
+Items/grass_bottom_single;147;155;32;10;0.5;-0.6000000000000001
+Items/grass_top_center;219;157;32;9;0.5;1.7777777777777777
+Items/grass_top_left;219;144;32;9;0.5;1.7777777777777777
+Items/grass_top_right;183;143;32;9;0.5;1.7777777777777777
+Items/grass_top_single;147;142;32;9;0.5;1.7777777777777777
+Items/wall_bottom_left;199;107;5;32;-2.2;0.5
+Items/wall_bottom_right;208;107;5;32;3.2;0.5
+Items/wall_center_left;217;90;5;32;-2.2;0.5
+Items/wall_center_right;226;90;5;32;3.2;0.5
+Items/wall_single_left;235;73;5;32;-2.2;0.5
+Items/wall_single_right;244;73;5;32;3.2;0.5
+Items/wall_top_left;143;106;5;32;-2.2;0.5
+Items/wall_top_right;152;106;5;32;3.2;0.5
