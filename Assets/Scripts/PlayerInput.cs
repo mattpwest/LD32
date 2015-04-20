@@ -41,7 +41,6 @@ public class PlayerInput : MonoBehaviour {
 	void Update(){
 		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
 
-		HandleInput ();
 		UpdateFacing ();
 		UpdateShooting();
 		UpdateAnimations();
@@ -118,6 +117,8 @@ public class PlayerInput : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
+		HandleInput ();
+
 		body.velocity = new Vector2 (move * maxSpeed, body.velocity.y);
 		
 		if (shouldJump) {
