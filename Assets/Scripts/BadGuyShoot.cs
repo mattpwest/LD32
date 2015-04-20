@@ -14,11 +14,13 @@ public class BadGuyShoot : MonoBehaviour {
 	private float timer = 0f;
 	public bool spotted;
 	private Animator animator;
+	private AudioSource source;
 
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator>();
 		body = GetComponentInParent<Rigidbody2D> ();
+		source = GetComponent<AudioSource> ();
 
 		animator.SetBool("Hostile", true);
 		animator.SetBool("Grounded", true);
@@ -48,6 +50,9 @@ public class BadGuyShoot : MonoBehaviour {
 	}
 
 	void Shoot(){
+		if (!source.isPlaying) {
+			source.Play();
+		}
 		timer = 0.0f;
 		canShoot = false;
 		animator.SetBool("Shooting", true);
