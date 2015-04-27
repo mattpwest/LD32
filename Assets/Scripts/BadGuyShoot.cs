@@ -10,7 +10,6 @@ public class BadGuyShoot : MonoBehaviour {
 	public LayerMask layerMask;
 	public Transform projectileSpawn;
 
-	private Rigidbody2D body;
 	private float timer = 0f;
 	public bool spotted;
 	private Animator animator;
@@ -19,7 +18,6 @@ public class BadGuyShoot : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator>();
-		body = GetComponentInParent<Rigidbody2D> ();
 		source = GetComponent<AudioSource> ();
 
 		animator.SetBool("Hostile", true);
