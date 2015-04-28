@@ -71,7 +71,9 @@ public class PlayerInput : MonoBehaviour {
 	void HandleInput() {
 		walk.walkAnalog (Input.GetAxis (Inputs.Horizontal));
 
-		shouldJump = Input.GetButtonDown (Inputs.Jump) && grounded;
+		if (Input.GetButtonDown (Inputs.Jump) && grounded){
+			shouldJump = true;
+		}
 
 		if (Input.GetButtonDown (Inputs.Shoot)) {
 			shootStrength = 1.0f;
@@ -133,6 +135,7 @@ public class PlayerInput : MonoBehaviour {
 	void FixedUpdate () {
 		if (shouldJump) {
 			body.AddForce (new Vector2 (0, jumpForce));
+			shouldJump = false;
 		}
 	}
 }
