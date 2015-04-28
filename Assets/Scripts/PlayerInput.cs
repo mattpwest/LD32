@@ -6,7 +6,6 @@ using System;
 public class PlayerInput : MonoBehaviour {
 
 	public float jumpForce = 250f;
-	public float maxSpeed = 3.0f;
 	private FacingDirection facing = FacingDirection.Right;
 	private Rigidbody2D body;
 	public Animator animator;
@@ -27,13 +26,14 @@ public class PlayerInput : MonoBehaviour {
 	float groundRadius = 0.1f;
 	public LayerMask whatIsGround;
 
-	float move;
 	private AudioSource source;
+	private Walk walk;
 	
 	// Use this for initialization
 	void Start () {
 		body = GetComponent<Rigidbody2D> ();
 		source = GetComponent<AudioSource> ();
+		walk = GetComponent<Walk> ();
 		//body.drag = 0.4f;
 	}
 	
@@ -69,7 +69,7 @@ public class PlayerInput : MonoBehaviour {
 	}
 
 	void HandleInput() {
-		move = Input.GetAxis (Inputs.Horizontal);
+		walk.walkAnalog (Input.GetAxis (Inputs.Horizontal));
 
 		shouldJump = Input.GetButtonDown (Inputs.Jump) && grounded;
 
@@ -131,8 +131,6 @@ public class PlayerInput : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		body.velocity = new Vector2 (move * maxSpeed, body.velocity.y);
-		
 		if (shouldJump) {
 			body.AddForce (new Vector2 (0, jumpForce));
 		}
