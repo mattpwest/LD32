@@ -5,12 +5,10 @@ using System;
 
 public class PlayerInput : MonoBehaviour {
 
-	public float jumpForce = 250f;
 	private FacingDirection facing = FacingDirection.Right;
 	private Rigidbody2D body;
 	public Animator animator;
 
-	public bool shouldJump = false;
 	public bool shootCharging = false;
 	private float shootStrength = 0.0f;
 	private float shootStrengthMax = 3.0f;
@@ -23,6 +21,7 @@ public class PlayerInput : MonoBehaviour {
 	private AudioSource source;
 	private Walk walk;
 	private GroundSensor groundSensor;
+	private Jump jump;
 	
 	// Use this for initialization
 	void Start () {
@@ -30,6 +29,7 @@ public class PlayerInput : MonoBehaviour {
 		source = GetComponent<AudioSource> ();
 		walk = GetComponent<Walk> ();
 		groundSensor = GetComponent<GroundSensor> ();
+		jump = GetComponent<Jump> ();
 		//body.drag = 0.4f;
 	}
 	
@@ -66,8 +66,8 @@ public class PlayerInput : MonoBehaviour {
 	void HandleInput() {
 		walk.walkAnalog (Input.GetAxis (Inputs.Horizontal));
 
-		if (Input.GetButtonDown (Inputs.Jump) && groundSensor.isGrounded()){
-			shouldJump = true;
+		if (Input.GetButtonDown (Inputs.Jump)) {
+			jump.jump();
 		}
 
 		if (Input.GetButtonDown (Inputs.Shoot)) {
@@ -128,9 +128,5 @@ public class PlayerInput : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		if (shouldJump) {
-			body.AddForce (new Vector2 (0, jumpForce));
-			shouldJump = false;
-		}
 	}
 }
