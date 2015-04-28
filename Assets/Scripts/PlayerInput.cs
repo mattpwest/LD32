@@ -10,8 +10,6 @@ public class PlayerInput : MonoBehaviour {
 	private Rigidbody2D body;
 	public Animator animator;
 
-	public bool grounded = false;
-
 	public bool shouldJump = false;
 	public bool shootCharging = false;
 	private float shootStrength = 0.0f;
@@ -22,25 +20,21 @@ public class PlayerInput : MonoBehaviour {
 
 	public AudioClip spit;
 
-	public Transform groundCheck;
-	float groundRadius = 0.1f;
-	public LayerMask whatIsGround;
-
 	private AudioSource source;
 	private Walk walk;
+	private GroundSensor groundSensor;
 	
 	// Use this for initialization
 	void Start () {
 		body = GetComponent<Rigidbody2D> ();
 		source = GetComponent<AudioSource> ();
 		walk = GetComponent<Walk> ();
+		groundSensor = GetComponent<GroundSensor> ();
 		//body.drag = 0.4f;
 	}
 	
 	// Update is called once per frame
 	void Update(){
-		grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
-
 		HandleInput ();
 
 		UpdateFacing ();
@@ -64,14 +58,15 @@ public class PlayerInput : MonoBehaviour {
 	}
 
 	void UpdateAnimations() {
-		animator.SetBool ("Grounded", grounded);
+		Debug.Log("Grounded = " + groundSensor.isGrounded());
+		animator.SetBool ("Grounded", groundSensor.isGrounded());
 		animator.SetBool ("Walking", Math.Abs (body.velocity.x) > 0.1f);
 	}
 
 	void HandleInput() {
 		walk.walkAnalog (Input.GetAxis (Inputs.Horizontal));
 
-		if (Input.GetButtonDown (Inputs.Jump) && grounded){
+		if (Input.GetButtonDown (Inputs.Jump) && groundSensor.isGrounded()){
 			shouldJump = true;
 		}
 
