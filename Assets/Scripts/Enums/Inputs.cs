@@ -14,7 +14,9 @@ namespace AssemblyCSharp
 	{
 		Fire,
 		Jump,
-		Pickup
+		Pickup,
+		Start,
+		Back
 	}
 }
 
