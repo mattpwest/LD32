@@ -94,18 +94,18 @@ public class xBox360Controller : MonoBehaviour, IInput {
 	}
 
 	private bool GetButtonDownStart(){
-		return prevState.Buttons.Start == ButtonState.Released && state.Buttons.Start == ButtonState.Pressed
+		return prevState.Buttons.Start == ButtonState.Released && state.Buttons.Start == ButtonState.Pressed;
 	}
 
 	private bool GetButtonUpStart(){
-		return state.Buttons.Start == ButtonState.Released && prevState.Buttons.Start == ButtonState.Pressed
+		return state.Buttons.Start == ButtonState.Released && prevState.Buttons.Start == ButtonState.Pressed;
 	}
 
 	private bool GetButtonDownBack(){
-		return prevState.Buttons.Back == ButtonState.Released && state.Buttons.Back == ButtonState.Pressed
+		return prevState.Buttons.Back == ButtonState.Released && state.Buttons.Back == ButtonState.Pressed;
 	}
 	
 	private bool GetButtonUpBack){
-		return state.Buttons.Back == ButtonState.Released && prevState.Buttons.Back == ButtonState.Pressed
+		return state.Buttons.Back == ButtonState.Released && prevState.Buttons.Back == ButtonState.Pressed;
 	}
 }
