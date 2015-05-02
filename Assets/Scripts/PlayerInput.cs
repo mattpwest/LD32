@@ -14,7 +14,7 @@ public class PlayerInput : MonoBehaviour {
 	private Jump jump;
 	private IWeapon weapon;
 	private IInput input;
-	public Player player = Player.PlayerOne;
+	public Player player = Player.One;
 	
 	// Use this for initialization
 	void Start () {
