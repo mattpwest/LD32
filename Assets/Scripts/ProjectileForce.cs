@@ -44,7 +44,7 @@ public class ProjectileForce : MonoBehaviour {
 		if (collider.gameObject.tag.Equals(Tag.ProjectileCollidable)) {
 			var health = collider.gameObject.GetComponent<Health>();
 
-			if (((layerMask & 1 << collider.gameObject.layer) == (1 << collider.gameObject.layer)) && (health != null)) {
+			if (health != null) {
 				health.Damage(damage);
 			}
 

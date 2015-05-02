@@ -3,9 +3,9 @@ using System.Collections;
 using AssemblyCSharp;
 using XInputDotNetPure;
 
-public class xBox360Controller : MonoBehaviour, IInput {
+public class xBox360Controller : IInput, IInputUpdate {
 
-	public int playerNumber;
+	private int playerNumber;
 
 	bool playerIndexSet = false;
 	PlayerIndex playerIndex;
@@ -13,22 +13,25 @@ public class xBox360Controller : MonoBehaviour, IInput {
 	GamePadState prevState;
 
 	public xBox360Controller(int playerNumber){
-		playerNumber = playerNumber;
+		playerIndex = (PlayerIndex)playerNumber;
+		Debug.Log ((PlayerIndex)playerNumber);
 	}
 
 	// Update is called once per frame
-	void Update () {
-		if (!playerIndexSet || !prevState.IsConnected)
-		{
-			PlayerIndex testPlayerIndex = (PlayerIndex)playerNumber;
-			GamePadState testState = GamePad.GetState(testPlayerIndex);
-			if (testState.IsConnected)
-			{
-				Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
-				playerIndex = testPlayerIndex;
-				playerIndexSet = true;
-			}
-		}
+	public void Update () {
+//		if (!playerIndexSet || !prevState.IsConnected)
+//		{
+//			PlayerIndex testPlayerIndex = (PlayerIndex)playerNumber;
+//			GamePadState testState = GamePad.GetState(testPlayerIndex);
+//			if (testState.IsConnected)
+//			{
+//				Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
+//				playerIndex = testPlayerIndex;
+//				playerIndexSet = true;
+//			}
+//		}
+		prevState = state;
+		state = GamePad.GetState(playerIndex);
 	}
 
 	public float GetAxis(InputAxis axis){
@@ -48,7 +51,7 @@ public class xBox360Controller : MonoBehaviour, IInput {
 			return GetButtonDownFire();
 		case Inputs.Start:
 			return GetButtonDownStart();
-		case Inputs.Start:
+		case Inputs.Back:
 			return GetButtonDownBack();
 		}
 		return false;

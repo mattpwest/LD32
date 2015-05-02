@@ -13,6 +13,8 @@ public class PlayerInput : MonoBehaviour {
 	private GroundSensor groundSensor;
 	private Jump jump;
 	private IWeapon weapon;
+	private IInput input;
+	public Player player = Player.PlayerOne;
 	
 	// Use this for initialization
 	void Start () {
@@ -27,6 +29,10 @@ public class PlayerInput : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update(){
+		if (input == null) {
+			input = GameObject.Find ("InputHolder").GetComponent<InputHolder> ().GetPlayerInput (player);
+		}
+
 		HandleInput ();
 
 		UpdateFacing ();
@@ -39,22 +45,23 @@ public class PlayerInput : MonoBehaviour {
 	}
 
 	void HandleInput() {
-		walk.walkAnalog (Input.GetAxis (Inputs.Horizontal));
+		walk.walkAnalog (input.GetAxis (InputAxis.Horizontal));
 
-		if (Input.GetButtonDown (Inputs.Jump)) {
+		if (input.GetButtonDown (Inputs.Jump)) {
 			jump.jump();
 		}
 
-		if (Input.GetButtonDown (Inputs.Shoot)) {
+		if (input.GetButtonDown (Inputs.Fire)) {
 			weapon.ChargeStart ();
-		} else if (Input.GetButtonUp (Inputs.Shoot)) {
+		} else if (input.GetButtonUp (Inputs.Fire)) {
 			weapon.ChargeStop ();
 		}
 
-		if (Input.GetButtonDown (Inputs.Cancel)) {
+		if (input.GetButtonDown (Inputs.Start)) {
 			Application.Quit();
 		}
 	}
+
 
 	void UpdateFacing(){
 		var newFacing = facing;
