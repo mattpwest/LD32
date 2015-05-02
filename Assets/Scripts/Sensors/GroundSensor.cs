@@ -15,8 +15,8 @@ public class GroundSensor : MonoBehaviour {
 		groundCheck = new GameObject("GroundCheck").transform;
 		groundCheck.parent = gameObject.transform;
 		var x = bounds.offset.x;
-		var y = bounds.offset.y + bounds.size.y * 0.9f;
-		groundCheck.position = new Vector3(x, y, 0);
+		var y = bounds.offset.y - bounds.size.y * 0.9f;
+		groundCheck.localPosition = new Vector3(x, y, 0);
 	}
 
 	public bool isGrounded() {
