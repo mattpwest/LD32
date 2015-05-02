@@ -10,12 +10,13 @@
 using System;
 namespace AssemblyCSharp
 {
-	public static class Inputs
+	public enum Inputs
 	{
-		public static string Horizontal { get { return "Horizontal"; } }
-		public static string Jump { get { return "Jump"; } }
-		public static string Shoot { get { return "Fire1"; } }
-		public static string Cancel { get { return "Cancel"; } }
+		Fire,
+		Jump,
+		Pickup,
+		Start,
+		Back
 	}
 }
 
