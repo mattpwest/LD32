@@ -105,7 +105,7 @@ public class xBox360Controller : MonoBehaviour, IInput {
 		return prevState.Buttons.Back == ButtonState.Released && state.Buttons.Back == ButtonState.Pressed;
 	}
 	
-	private bool GetButtonUpBack){
+	private bool GetButtonUpBack(){
 		return state.Buttons.Back == ButtonState.Released && prevState.Buttons.Back == ButtonState.Pressed;
 	}
 }
