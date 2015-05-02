@@ -12,9 +12,9 @@ namespace AssemblyCSharp
 {
 	public enum Inputs
 	{
-		fire,
-		jump,
-		pickup
+		Fire,
+		Jump,
+		Pickup
 	}
 }
 
