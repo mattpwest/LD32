@@ -3,7 +3,7 @@ using System.Collections;
 using AssemblyCSharp;
 using XInputDotNetPure;
 
-public class xBox360Controller : MonoBehaviour, CustInput {
+public class xBox360Controller : MonoBehaviour, IInput {
 
 	public int playerNumber;
 
@@ -46,6 +46,10 @@ public class xBox360Controller : MonoBehaviour, CustInput {
 			return GetButtonDownJump();
 		case Inputs.Fire:
 			return GetButtonDownFire();
+		case Inputs.Start:
+			return GetButtonDownStart();
+		case Inputs.Start:
+			return GetButtonDownBack();
 		}
 		return false;
 	}
@@ -56,6 +60,10 @@ public class xBox360Controller : MonoBehaviour, CustInput {
 			return GetButtonUpJump();
 		case Inputs.Fire:
 			return GetButtonUpFire();
+		case Inputs.Start:
+			return GetButtonUpStart();
+		case Inputs.Back:
+			return GetButtonUpBack();
 		}
 		return false;
 	}
@@ -83,5 +91,21 @@ public class xBox360Controller : MonoBehaviour, CustInput {
 	
 	private bool GetButtonUpFire(){
 		return state.Triggers.Right == 0 && prevState.Triggers.Right > 0;
+	}
+
+	private bool GetButtonDownStart(){
+		return prevState.Buttons.Start == ButtonState.Released && state.Buttons.Start == ButtonState.Pressed
+	}
+
+	private bool GetButtonUpStart(){
+		return state.Buttons.Start == ButtonState.Released && prevState.Buttons.Start == ButtonState.Pressed
+	}
+
+	private bool GetButtonDownBack(){
+		return prevState.Buttons.Back == ButtonState.Released && state.Buttons.Back == ButtonState.Pressed
+	}
+	
+	private bool GetButtonUpBack){
+		return state.Buttons.Back == ButtonState.Released && prevState.Buttons.Back == ButtonState.Pressed
 	}
 }
