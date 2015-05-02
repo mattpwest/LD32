@@ -4,7 +4,7 @@ using AssemblyCSharp;
 
 namespace AssemblyCSharp
 {
-	public interface Input {
+	public interface CustInput {
 		float GetAxis(InputAxis axis);
 		bool GetButtonDown(Inputs button);
 		bool GetButtonUp(Inputs button);
