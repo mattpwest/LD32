@@ -5,13 +5,16 @@ public class WeaponSpit : MonoBehaviour, IWeapon {
 
 	public float chargeRatePerSecond = 1.0f;
 	public float spitAngle = 35.0f;
+	public float reloadDelaySeconds = 2.0f;
 	private bool charging = false;
 	private float strength = 0.0f;
 	private float strengthMin = 1.0f;
 	private float strengthMax = 2.0f;
+	private float reloadTimeRemainingSeconds = 0.0f;
 	private Transform shotSpawn;
 	private GameObject spitPrefab;
 	private AudioSource audioSource;
+	private AudioClip ahem;
 	private AudioClip snort;
 	private AudioClip spit;
 
@@ -20,6 +23,7 @@ public class WeaponSpit : MonoBehaviour, IWeapon {
 		shotSpawn = createSpitSpawnTransform ();
 
 		AudioHolder audioHolder = GameObject.Find ("AudioHolder").GetComponent<AudioHolder>();
+		ahem = audioHolder.ahem;
 		snort = audioHolder.snort;
 		spit = audioHolder.spit;
 
@@ -42,19 +46,29 @@ public class WeaponSpit : MonoBehaviour, IWeapon {
 	}
 
 	public void ChargeStart() {
-		charging = true;
+		if ((reloadTimeRemainingSeconds > 0.0f) && (!audioSource.isPlaying)) {
+			audioSource.PlayOneShot(ahem);
+			return;
+		}
 
+		charging = true;
 		audioSource.Play ();
 	}
 
 	public void ChargeStop() {
-		charging = false;
+		if (reloadTimeRemainingSeconds > 0.0f) {
+			return;
+		}
 
-		audioSource.Stop ();
-		audioSource.PlayOneShot(spit);
+		charging = false;
 	}
 
 	private void Update () {
+		if (reloadTimeRemainingSeconds > 0.0f) {
+			reloadTimeRemainingSeconds -= Time.deltaTime;
+			return;
+		}
+
 		shotSpawn.localScale = gameObject.transform.localScale;
 
 		ChargeSpit ();
@@ -93,6 +107,13 @@ public class WeaponSpit : MonoBehaviour, IWeapon {
 		// Reset shot strength
 		Debug.Log("Shot fired with strength: " + strength);
 		strength = 0.0f;
+
+		// Start reload delay
+		reloadTimeRemainingSeconds = reloadDelaySeconds;
+
+		// Play the spit sound
+		audioSource.Stop ();
+		audioSource.PlayOneShot(spit);
 	}
 
 }
