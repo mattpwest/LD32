@@ -22,6 +22,7 @@ public class PlayerInput : MonoBehaviour {
 		groundSensor = GetComponent<GroundSensor> ();
 		jump = GetComponent<Jump> ();
 		weapon = GetComponent<WeaponSpit> ();
+		weapon = GetComponent<WeaponShotgun> ();
 		//body.drag = 0.4f;
 	}
 	
