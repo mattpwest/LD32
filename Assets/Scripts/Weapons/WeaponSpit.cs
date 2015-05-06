@@ -46,13 +46,13 @@ public class WeaponSpit : MonoBehaviour, IWeapon {
 	}
 
 	public void ChargeStart() {
-		if ((reloadTimeRemainingSeconds > 0.0f) && (!audioSource.isPlaying)) {
-			audioSource.PlayOneShot(ahem);
+		if (reloadTimeRemainingSeconds > 0.0f) {
+			PlaySound (ahem);
 			return;
 		}
 
 		charging = true;
-		audioSource.Play ();
+		PlaySound (snort);
 	}
 
 	public void ChargeStop() {
@@ -73,6 +73,16 @@ public class WeaponSpit : MonoBehaviour, IWeapon {
 
 		ChargeSpit ();
 		SpitIfChargingStopped ();
+	}
+
+	protected void PlaySound(AudioClip clip) {
+		if (audioSource.isPlaying) {
+			return;
+		}
+
+		audioSource.clip = clip;
+		audioSource.loop = false;
+		audioSource.Play();
 	}
 
 	protected void ChargeSpit() {
@@ -113,7 +123,7 @@ public class WeaponSpit : MonoBehaviour, IWeapon {
 
 		// Play the spit sound
 		audioSource.Stop ();
-		audioSource.PlayOneShot(spit);
+		PlaySound (spit);
 	}
 
 }
